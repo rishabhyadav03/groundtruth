@@ -55,13 +55,13 @@ With 90 questions, one question is about 1.1 points of recall@10, so the gate ef
 
 ```mermaid
 flowchart LR
-  A[FastAPI docs, 40 .md files] --> B[Chunker: paragraph-based]
-  B --> C[Retriever: dense / BM25 / hybrid, optional reranker]
-  D[golden_set.json: 100 questions + evidence sentences] --> E[run_eval.py]
+  A["FastAPI docs, 40 .md files"] --> B["Chunker: paragraph-based"]
+  B --> C["Retriever: dense / BM25 / hybrid, optional reranker"]
+  D["golden_set.json: 100 questions + evidence sentences"] --> E["run_eval.py"]
   C --> E
-  E --> F[recall@k, MRR, nDCG, latency]
-  F --> G[results/results.md and results.json]
-  F --> H[pytest + GitHub Actions gate]
+  E --> F["recall at k, MRR, nDCG, latency"]
+  F --> G["results/results.md and results.json"]
+  F --> H["pytest + GitHub Actions gate"]
 ```
 
 ### The golden set
