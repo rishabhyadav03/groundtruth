@@ -2,9 +2,9 @@
 
 A small tool that checks whether a change to a retrieval system (the search part of RAG) really makes it better, using numbers instead of trying a few questions by hand.
 
-I tested it on the FastAPI tutorial docs. The best setup I found was dense search plus a reranker. It raised recall@10 from 0.87 to 0.93 and MRR from 0.51 to 0.71, but a query takes about 600 ms on my laptop CPU instead of 33 ms.
+I tested it on the FastAPI tutorial docs. The best setup I found was dense search plus a reranker. It raised recall@10 from 0.87 to 0.93 and MRR from 0.51 to 0.71, but a query takes about 600 ms on my laptop CPU instead of 33 ms. I also checked the final answers with a Groq model: 94% were correct, and most of the wrong ones came from retrieval.
 
-
+Demo video (90 seconds): [ADD LINK]
 
 ## What is in the repo
 
@@ -13,6 +13,7 @@ I tested it on the FastAPI tutorial docs. The best setup I found was dense searc
 - recall@k, MRR and nDCG, written by hand and unit tested
 - 7 retriever setups compared on the same questions
 - confidence ranges, so I know which differences I can trust
+- an answer-quality check using Groq
 - a GitHub Action that fails a pull request if recall@10 drops by more than 1 point
 
 ## Results
@@ -70,7 +71,7 @@ For every answerable question I saved the exact sentence from the docs that answ
 
 [EDIT: say how you made the questions. For example: I used an LLM to draft them, then read all 100 and changed N of them.]
 
-The 10 unanswerable questions are not used in the scores yet.
+The 10 unanswerable questions are not used in the retrieval scores.
 
 ## The CI check
 
@@ -81,6 +82,27 @@ To test it I opened a pull request that switched to keyword-only search. recall@
 ![failing check on the pull request](docs/ci-fail-pr.png)
 ![test log](docs/ci-fail-log.png)
 ![passing run on main and failing run on the bad branch](docs/ci-pass-vs-fail.png)
+
+## Answer quality (with Groq)
+
+I also checked the final answers. For each question, the top 5 chunks go to an answering model (Qwen3.8 27B on Groq), which must answer only from them or say "I don't know". A different model (GPT-OSS 120B) judges each answer against a short reference answer and checks that it is supported by the chunks.
+
+| | Result |
+|---|---|
+| Correct answers | 85/90 (94%) |
+| Correct when the evidence was in the top 5 | 74/75 (99%) |
+| Correct when the evidence was not in the top 5 | 11/15 (73%) |
+| Wrong answers caused by retrieval / by generation | 4 / 1 |
+| Answers supported by the chunks | 88/88 |
+| "I don't know" on unanswerable questions | 10/10 |
+
+Most of the weakness is in retrieval, not generation. And 11 of the 15 questions that my strict sentence rule counts as retrieval misses were still answered correctly, because another chunk had the answer. So the recall numbers above understate how useful the retrieval is.
+
+Caveats:
+- The judge is an LLM, and the reference answers are short ones drafted with an LLM. I read 15 judgments myself (all 5 wrong answers and 10 right ones) and agreed with [N]. One of them (q060) was debatable.
+- Only 5 answers were wrong, so 4 vs 1 is a direction, not a firm split. The one "generation" failure was really an unclear question of mine.
+- All 3 wrong answers that were not "I don't know" were still supported by the chunks, so being supported does not mean being correct.
+- The unanswerable questions are far from the docs, so refusing them was easy.
 
 ## Where it still fails
 
@@ -99,7 +121,7 @@ q010 and q066 look like the same problems.
 - Only 90 scored questions, and one set of docs.
 - Matching one exact sentence is strict. A chunk that answers well but does not contain that sentence still counts as a miss.
 - Times are from my laptop CPU.
-- I only test retrieval. I did not measure how good the final generated answers are.
+- The answer check uses one answering model and one LLM judge, and I only read 15 of its judgments.
 
 ## Run it
 
@@ -116,7 +138,12 @@ python -m src.analyze             # compare with the baseline question by questi
 python -m src.error_analysis      # look at the failed questions
 python -m src.pool_experiment     # reranker pool size experiment
 python -m src.speed_experiment    # reranker size experiment
+python -m src.generate_eval       # answer-quality check, needs a Groq key
+python -m src.show_answers        # read the wrong answers and a sample of the right ones
 ```
+
+For the Groq step, set the key in your terminal first (never put it in a file):
+`$env:GROQ_API_KEY = "your-key"`
 
 ## Folders
 
@@ -125,7 +152,7 @@ data/docs/            FastAPI tutorial docs
 data/golden_set.json  the 100 questions
 src/                  chunker, retriever, metrics, run_eval, analysis scripts
 tests/                metric tests, chunker test, regression check
-results/              result tables and baseline.json
+results/              result tables, baseline.json, answer-check results
 .github/workflows/    CI
 ```
 
