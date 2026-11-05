@@ -1,0 +1,5414 @@
+{
+  "baseline (100w, dense)": [
+    {
+      "id": "q001",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 12.074499973095953,
+      "words": 815
+    },
+    {
+      "id": "q002",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.146700031124055,
+      "words": 926
+    },
+    {
+      "id": "q003",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 10.506999969948083,
+      "words": 739
+    },
+    {
+      "id": "q004",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 16.8961999588646,
+      "words": 830
+    },
+    {
+      "id": "q005",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 18.961999972816557,
+      "words": 894
+    },
+    {
+      "id": "q006",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 42.74750000331551,
+      "words": 866
+    },
+    {
+      "id": "q007",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 17.96169998124242,
+      "words": 828
+    },
+    {
+      "id": "q008",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 16.154799959622324,
+      "words": 1062
+    },
+    {
+      "id": "q009",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 16.2514999974519,
+      "words": 896
+    },
+    {
+      "id": "q010",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 18.775800010189414,
+      "words": 874
+    },
+    {
+      "id": "q011",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.78030001372099,
+      "words": 993
+    },
+    {
+      "id": "q012",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.250800045672804,
+      "words": 944
+    },
+    {
+      "id": "q013",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 13.530600001104176,
+      "words": 752
+    },
+    {
+      "id": "q014",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 13.426000019535422,
+      "words": 965
+    },
+    {
+      "id": "q015",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 20.056000037584454,
+      "words": 761
+    },
+    {
+      "id": "q016",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.866699983831495,
+      "words": 939
+    },
+    {
+      "id": "q017",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 40.60680000111461,
+      "words": 820
+    },
+    {
+      "id": "q018",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.654599987901747,
+      "words": 828
+    },
+    {
+      "id": "q019",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.89100000495091,
+      "words": 880
+    },
+    {
+      "id": "q020",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "ms": 9.47180000366643,
+      "words": 854
+    },
+    {
+      "id": "q021",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 9.654499997850507,
+      "words": 877
+    },
+    {
+      "id": "q022",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.10600000154227,
+      "words": 1145
+    },
+    {
+      "id": "q023",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 8.435099967755377,
+      "words": 993
+    },
+    {
+      "id": "q024",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.112200001254678,
+      "words": 611
+    },
+    {
+      "id": "q025",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 9.67619998846203,
+      "words": 854
+    },
+    {
+      "id": "q026",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.681400028057396,
+      "words": 864
+    },
+    {
+      "id": "q027",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.859300022479147,
+      "words": 870
+    },
+    {
+      "id": "q028",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 9.75919998018071,
+      "words": 951
+    },
+    {
+      "id": "q029",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 13.462300004903227,
+      "words": 796
+    },
+    {
+      "id": "q030",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 9.463299997150898,
+      "words": 747
+    },
+    {
+      "id": "q031",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 9.307100030127913,
+      "words": 806
+    },
+    {
+      "id": "q032",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 9.022200014442205,
+      "words": 806
+    },
+    {
+      "id": "q033",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 15.002199972514063,
+      "words": 806
+    },
+    {
+      "id": "q034",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 8.72830004664138,
+      "words": 980
+    },
+    {
+      "id": "q035",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 13.695600035134703,
+      "words": 931
+    },
+    {
+      "id": "q036",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 9.776599996257573,
+      "words": 928
+    },
+    {
+      "id": "q037",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 8.24669998837635,
+      "words": 866
+    },
+    {
+      "id": "q038",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 8.927299990318716,
+      "words": 905
+    },
+    {
+      "id": "q039",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.921000000555068,
+      "words": 811
+    },
+    {
+      "id": "q040",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.445399977266788,
+      "words": 855
+    },
+    {
+      "id": "q041",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 8.996200049296021,
+      "words": 883
+    },
+    {
+      "id": "q042",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 11.543299944605678,
+      "words": 801
+    },
+    {
+      "id": "q043",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.48659999994561,
+      "words": 998
+    },
+    {
+      "id": "q044",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 9.925100021064281,
+      "words": 851
+    },
+    {
+      "id": "q045",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.32240000879392,
+      "words": 866
+    },
+    {
+      "id": "q046",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 10.978900012560189,
+      "words": 938
+    },
+    {
+      "id": "q047",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 16.39229996362701,
+      "words": 924
+    },
+    {
+      "id": "q048",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 8.816000015940517,
+      "words": 829
+    },
+    {
+      "id": "q049",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.246700014453381,
+      "words": 1047
+    },
+    {
+      "id": "q050",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.125,
+      "ndcg10": 0.31546487678572877,
+      "ms": 10.311099991668016,
+      "words": 837
+    },
+    {
+      "id": "q051",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "ms": 11.334699986036867,
+      "words": 759
+    },
+    {
+      "id": "q052",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 9.665600024163723,
+      "words": 731
+    },
+    {
+      "id": "q053",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 9.055200032889843,
+      "words": 737
+    },
+    {
+      "id": "q054",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 9.020900004543364,
+      "words": 814
+    },
+    {
+      "id": "q055",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.713999985251576,
+      "words": 870
+    },
+    {
+      "id": "q056",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.633199988864362,
+      "words": 814
+    },
+    {
+      "id": "q057",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.236100013367832,
+      "words": 864
+    },
+    {
+      "id": "q058",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 19.472500018309802,
+      "words": 899
+    },
+    {
+      "id": "q059",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 25.444499973673373,
+      "words": 825
+    },
+    {
+      "id": "q060",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.494800030253828,
+      "words": 890
+    },
+    {
+      "id": "q061",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.722599992528558,
+      "words": 952
+    },
+    {
+      "id": "q062",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 10.130100010428578,
+      "words": 946
+    },
+    {
+      "id": "q063",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 9.612299967557192,
+      "words": 848
+    },
+    {
+      "id": "q064",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 8.739400014746934,
+      "words": 1000
+    },
+    {
+      "id": "q065",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 9.981699986383319,
+      "words": 734
+    },
+    {
+      "id": "q066",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 8.937300008255988,
+      "words": 813
+    },
+    {
+      "id": "q067",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 8.41690000379458,
+      "words": 862
+    },
+    {
+      "id": "q068",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 8.722800004761666,
+      "words": 830
+    },
+    {
+      "id": "q069",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 9.10149997798726,
+      "words": 722
+    },
+    {
+      "id": "q070",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.170500027015805,
+      "words": 825
+    },
+    {
+      "id": "q071",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.648699964396656,
+      "words": 842
+    },
+    {
+      "id": "q072",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 9.742300026118755,
+      "words": 822
+    },
+    {
+      "id": "q073",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 9.286199987400323,
+      "words": 935
+    },
+    {
+      "id": "q074",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.11039998754859,
+      "words": 884
+    },
+    {
+      "id": "q075",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "ms": 9.459700027946383,
+      "words": 798
+    },
+    {
+      "id": "q076",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 9.747000003699213,
+      "words": 866
+    },
+    {
+      "id": "q077",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.183199959807098,
+      "words": 906
+    },
+    {
+      "id": "q078",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.182200010400265,
+      "words": 1084
+    },
+    {
+      "id": "q079",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 14.245899976231158,
+      "words": 888
+    },
+    {
+      "id": "q080",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 8.686099958140403,
+      "words": 904
+    },
+    {
+      "id": "q081",
+      "category": "multi_doc",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "mrr": 0.1,
+      "ndcg10": 0.17723928678404774,
+      "ms": 9.779100015293807,
+      "words": 988
+    },
+    {
+      "id": "q082",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.45749452618986164,
+      "ms": 9.073099994566292,
+      "words": 884
+    },
+    {
+      "id": "q083",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.46845052016107697,
+      "ms": 13.488000025972724,
+      "words": 827
+    },
+    {
+      "id": "q084",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6052602440527057,
+      "ms": 11.490000004414469,
+      "words": 793
+    },
+    {
+      "id": "q085",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6934264036172708,
+      "ms": 8.819499984383583,
+      "words": 849
+    },
+    {
+      "id": "q086",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6509209298071326,
+      "ms": 13.604800042230636,
+      "words": 877
+    },
+    {
+      "id": "q087",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6509209298071326,
+      "ms": 10.903999966103584,
+      "words": 888
+    },
+    {
+      "id": "q088",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8772153153380493,
+      "ms": 8.931400021538138,
+      "words": 905
+    },
+    {
+      "id": "q089",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 9.214600024279207,
+      "words": 951
+    },
+    {
+      "id": "q090",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5437713091520254,
+      "ms": 10.578199988231063,
+      "words": 758
+    }
+  ],
+  "bigger chunks (300w, dense)": [
+    {
+      "id": "q001",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 29.265299963299185,
+      "words": 2073
+    },
+    {
+      "id": "q002",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 16.161900013685226,
+      "words": 2521
+    },
+    {
+      "id": "q003",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 13.554499950259924,
+      "words": 2493
+    },
+    {
+      "id": "q004",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.30330003798008,
+      "words": 2661
+    },
+    {
+      "id": "q005",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 14.279299997724593,
+      "words": 2259
+    },
+    {
+      "id": "q006",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 14.222500030882657,
+      "words": 2661
+    },
+    {
+      "id": "q007",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 13.413599983323365,
+      "words": 2621
+    },
+    {
+      "id": "q008",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 32.47640002518892,
+      "words": 2680
+    },
+    {
+      "id": "q009",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 10.727800021413714,
+      "words": 2545
+    },
+    {
+      "id": "q010",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "ms": 12.202199955936521,
+      "words": 2093
+    },
+    {
+      "id": "q011",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.778899992350489,
+      "words": 2476
+    },
+    {
+      "id": "q012",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 11.038700002245605,
+      "words": 2561
+    },
+    {
+      "id": "q013",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.605899966321886,
+      "words": 2392
+    },
+    {
+      "id": "q014",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 13.826699985656887,
+      "words": 2662
+    },
+    {
+      "id": "q015",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 36.90499998629093,
+      "words": 2356
+    },
+    {
+      "id": "q016",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 10.84970001829788,
+      "words": 2487
+    },
+    {
+      "id": "q017",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 22.594899986870587,
+      "words": 2568
+    },
+    {
+      "id": "q018",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 10.894500010181218,
+      "words": 2398
+    },
+    {
+      "id": "q019",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.534499957226217,
+      "words": 2734
+    },
+    {
+      "id": "q020",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 9.989199985284358,
+      "words": 2471
+    },
+    {
+      "id": "q021",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.623699985444546,
+      "words": 2335
+    },
+    {
+      "id": "q022",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.666200028732419,
+      "words": 2483
+    },
+    {
+      "id": "q023",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 8.918799983803183,
+      "words": 2104
+    },
+    {
+      "id": "q024",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.387100057210773,
+      "words": 2165
+    },
+    {
+      "id": "q025",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 8.822199946735054,
+      "words": 2593
+    },
+    {
+      "id": "q026",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.808899961877614,
+      "words": 1992
+    },
+    {
+      "id": "q027",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 8.53099999949336,
+      "words": 2768
+    },
+    {
+      "id": "q028",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 17.956199997570366,
+      "words": 2419
+    },
+    {
+      "id": "q029",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 17.366899992339313,
+      "words": 2366
+    },
+    {
+      "id": "q030",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.698799985926598,
+      "words": 2681
+    },
+    {
+      "id": "q031",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 25.214399967808276,
+      "words": 2553
+    },
+    {
+      "id": "q032",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 10.711900016758591,
+      "words": 1873
+    },
+    {
+      "id": "q033",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.071800042875111,
+      "words": 2207
+    },
+    {
+      "id": "q034",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 9.16369998594746,
+      "words": 2842
+    },
+    {
+      "id": "q035",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.125,
+      "ndcg10": 0.31546487678572877,
+      "ms": 8.75619996804744,
+      "words": 2855
+    },
+    {
+      "id": "q036",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.732200007420033,
+      "words": 2764
+    },
+    {
+      "id": "q037",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.253700020257384,
+      "words": 2242
+    },
+    {
+      "id": "q038",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 9.03919996926561,
+      "words": 2454
+    },
+    {
+      "id": "q039",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.125,
+      "ndcg10": 0.31546487678572877,
+      "ms": 8.887100033462048,
+      "words": 2418
+    },
+    {
+      "id": "q040",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.242600004654378,
+      "words": 2589
+    },
+    {
+      "id": "q041",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.921499946154654,
+      "words": 2636
+    },
+    {
+      "id": "q042",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.327500000130385,
+      "words": 2700
+    },
+    {
+      "id": "q043",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.00070002535358,
+      "words": 2707
+    },
+    {
+      "id": "q044",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 17.80559995677322,
+      "words": 2549
+    },
+    {
+      "id": "q045",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 18.635000044014305,
+      "words": 2318
+    },
+    {
+      "id": "q046",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 16.429999959655106,
+      "words": 2310
+    },
+    {
+      "id": "q047",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 10.96970000071451,
+      "words": 2692
+    },
+    {
+      "id": "q048",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.927200015634298,
+      "words": 2696
+    },
+    {
+      "id": "q049",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 9.318299998994917,
+      "words": 2515
+    },
+    {
+      "id": "q050",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 8.192899986170232,
+      "words": 2892
+    },
+    {
+      "id": "q051",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 8.785500016529113,
+      "words": 2588
+    },
+    {
+      "id": "q052",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.401800005231053,
+      "words": 2029
+    },
+    {
+      "id": "q053",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.031099976506084,
+      "words": 2244
+    },
+    {
+      "id": "q054",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 9.099399961996824,
+      "words": 2411
+    },
+    {
+      "id": "q055",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.485600003041327,
+      "words": 2295
+    },
+    {
+      "id": "q056",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.974900051020086,
+      "words": 2497
+    },
+    {
+      "id": "q057",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.198100015055388,
+      "words": 2695
+    },
+    {
+      "id": "q058",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.018100041430444,
+      "words": 2491
+    },
+    {
+      "id": "q059",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 9.750899975188076,
+      "words": 2262
+    },
+    {
+      "id": "q060",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.059500007424504,
+      "words": 2198
+    },
+    {
+      "id": "q061",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.975900000426918,
+      "words": 2526
+    },
+    {
+      "id": "q062",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 10.033700033091009,
+      "words": 2323
+    },
+    {
+      "id": "q063",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.370099996682256,
+      "words": 2634
+    },
+    {
+      "id": "q064",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.197300008963794,
+      "words": 2638
+    },
+    {
+      "id": "q065",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 8.8481999700889,
+      "words": 2437
+    },
+    {
+      "id": "q066",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 9.344700025394559,
+      "words": 2430
+    },
+    {
+      "id": "q067",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.984200005419552,
+      "words": 2816
+    },
+    {
+      "id": "q068",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 8.850799989886582,
+      "words": 2104
+    },
+    {
+      "id": "q069",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.213799959979951,
+      "words": 2120
+    },
+    {
+      "id": "q070",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 10.120299994014204,
+      "words": 1843
+    },
+    {
+      "id": "q071",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.80520005011931,
+      "words": 2178
+    },
+    {
+      "id": "q072",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.687500016298145,
+      "words": 2626
+    },
+    {
+      "id": "q073",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 9.419700014404953,
+      "words": 2354
+    },
+    {
+      "id": "q074",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 14.667500043287873,
+      "words": 2201
+    },
+    {
+      "id": "q075",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.731900005135685,
+      "words": 2370
+    },
+    {
+      "id": "q076",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 9.63469996349886,
+      "words": 1864
+    },
+    {
+      "id": "q077",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.95779997901991,
+      "words": 2591
+    },
+    {
+      "id": "q078",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.775499977171421,
+      "words": 2674
+    },
+    {
+      "id": "q079",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.93999994918704,
+      "words": 2543
+    },
+    {
+      "id": "q080",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 8.587600023020059,
+      "words": 2436
+    },
+    {
+      "id": "q081",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 9.378699993249029,
+      "words": 2642
+    },
+    {
+      "id": "q082",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 8.918299979995936,
+      "words": 2364
+    },
+    {
+      "id": "q083",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8315546295836225,
+      "ms": 19.95260000694543,
+      "words": 2548
+    },
+    {
+      "id": "q084",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.4911492931622974,
+      "ms": 15.858599974308163,
+      "words": 2522
+    },
+    {
+      "id": "q085",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 9.735000028740615,
+      "words": 1891
+    },
+    {
+      "id": "q086",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 9.331899986136705,
+      "words": 2585
+    },
+    {
+      "id": "q087",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "ms": 11.536700010765344,
+      "words": 2691
+    },
+    {
+      "id": "q088",
+      "category": "multi_doc",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "mrr": 0.14285714285714285,
+      "ndcg10": 0.20438239758848611,
+      "ms": 9.896199975628406,
+      "words": 2622
+    },
+    {
+      "id": "q089",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 16.599400027189404,
+      "words": 2614
+    },
+    {
+      "id": "q090",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "ms": 14.352099969983101,
+      "words": 2192
+    }
+  ],
+  "keyword only (100w, bm25)": [
+    {
+      "id": "q001",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.1491000186651945,
+      "words": 794
+    },
+    {
+      "id": "q002",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.547399977222085,
+      "words": 876
+    },
+    {
+      "id": "q003",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.1650999658741057,
+      "words": 911
+    },
+    {
+      "id": "q004",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.519599998369813,
+      "words": 858
+    },
+    {
+      "id": "q005",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 1.2537000002339482,
+      "words": 914
+    },
+    {
+      "id": "q006",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.1721999617293477,
+      "words": 928
+    },
+    {
+      "id": "q007",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.1015000054612756,
+      "words": 870
+    },
+    {
+      "id": "q008",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.33000000985339284,
+      "words": 907
+    },
+    {
+      "id": "q009",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.9231999865733087,
+      "words": 874
+    },
+    {
+      "id": "q010",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.125,
+      "ndcg10": 0.31546487678572877,
+      "ms": 1.0937999468296766,
+      "words": 892
+    },
+    {
+      "id": "q011",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.7268000044859946,
+      "words": 902
+    },
+    {
+      "id": "q012",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.8562000002712011,
+      "words": 910
+    },
+    {
+      "id": "q013",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.831299985293299,
+      "words": 823
+    },
+    {
+      "id": "q014",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.0785000049509108,
+      "words": 860
+    },
+    {
+      "id": "q015",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.4170999745838344,
+      "words": 823
+    },
+    {
+      "id": "q016",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 0.7653999491594732,
+      "words": 740
+    },
+    {
+      "id": "q017",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.4124999870546162,
+      "words": 834
+    },
+    {
+      "id": "q018",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.8341000066138804,
+      "words": 956
+    },
+    {
+      "id": "q019",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.7288000197149813,
+      "words": 991
+    },
+    {
+      "id": "q020",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.7074999739415944,
+      "words": 908
+    },
+    {
+      "id": "q021",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 0.833700003568083,
+      "words": 891
+    },
+    {
+      "id": "q022",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 0.6136000156402588,
+      "words": 985
+    },
+    {
+      "id": "q023",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 0.5753000150434673,
+      "words": 1075
+    },
+    {
+      "id": "q024",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 0.8744000224396586,
+      "words": 889
+    },
+    {
+      "id": "q025",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.5602999590337276,
+      "words": 866
+    },
+    {
+      "id": "q026",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.8233999833464622,
+      "words": 811
+    },
+    {
+      "id": "q027",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 0.34420000156387687,
+      "words": 913
+    },
+    {
+      "id": "q028",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.7756000268273056,
+      "words": 942
+    },
+    {
+      "id": "q029",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 1.718799991067499,
+      "words": 792
+    },
+    {
+      "id": "q030",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.0848999954760075,
+      "words": 933
+    },
+    {
+      "id": "q031",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.5600000149570405,
+      "words": 840
+    },
+    {
+      "id": "q032",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 0.6225999677553773,
+      "words": 807
+    },
+    {
+      "id": "q033",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.6226000259630382,
+      "words": 869
+    },
+    {
+      "id": "q034",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.33300003269687295,
+      "words": 897
+    },
+    {
+      "id": "q035",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 0.35369995748624206,
+      "words": 956
+    },
+    {
+      "id": "q036",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 0.8426000131294131,
+      "words": 886
+    },
+    {
+      "id": "q037",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.5253000417724252,
+      "words": 906
+    },
+    {
+      "id": "q038",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.4936999757774174,
+      "words": 909
+    },
+    {
+      "id": "q039",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.653300026897341,
+      "words": 824
+    },
+    {
+      "id": "q040",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.45570003567263484,
+      "words": 884
+    },
+    {
+      "id": "q041",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 0.42259995825588703,
+      "words": 851
+    },
+    {
+      "id": "q042",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.8634999976493418,
+      "words": 818
+    },
+    {
+      "id": "q043",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 0.6891000084578991,
+      "words": 833
+    },
+    {
+      "id": "q044",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 0.8012999896891415,
+      "words": 882
+    },
+    {
+      "id": "q045",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 1.2023000163026154,
+      "words": 916
+    },
+    {
+      "id": "q046",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.2381999986246228,
+      "words": 959
+    },
+    {
+      "id": "q047",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.8969999616965652,
+      "words": 861
+    },
+    {
+      "id": "q048",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.6816000095568597,
+      "words": 756
+    },
+    {
+      "id": "q049",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.0146000422537327,
+      "words": 1037
+    },
+    {
+      "id": "q050",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.7178999949246645,
+      "words": 873
+    },
+    {
+      "id": "q051",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.7777999853715301,
+      "words": 807
+    },
+    {
+      "id": "q052",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 0.4805999924428761,
+      "words": 835
+    },
+    {
+      "id": "q053",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.7200000109151006,
+      "words": 724
+    },
+    {
+      "id": "q054",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 0.7518000202253461,
+      "words": 833
+    },
+    {
+      "id": "q055",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.707699975464493,
+      "words": 877
+    },
+    {
+      "id": "q056",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 1.8054000101983547,
+      "words": 909
+    },
+    {
+      "id": "q057",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.9049000218510628,
+      "words": 882
+    },
+    {
+      "id": "q058",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 1.3694000081159174,
+      "words": 899
+    },
+    {
+      "id": "q059",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.1992999934591353,
+      "words": 838
+    },
+    {
+      "id": "q060",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "ms": 1.3401000178419054,
+      "words": 887
+    },
+    {
+      "id": "q061",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 1.0213000350631773,
+      "words": 941
+    },
+    {
+      "id": "q062",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.14285714285714285,
+      "ndcg10": 0.3333333333333333,
+      "ms": 0.9934999980032444,
+      "words": 856
+    },
+    {
+      "id": "q063",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.5683000199496746,
+      "words": 863
+    },
+    {
+      "id": "q064",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 1.0946000111289322,
+      "words": 838
+    },
+    {
+      "id": "q065",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.5323999687097967,
+      "words": 807
+    },
+    {
+      "id": "q066",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.2579000322148204,
+      "words": 876
+    },
+    {
+      "id": "q067",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 0.8107999456115067,
+      "words": 859
+    },
+    {
+      "id": "q068",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.03270000545308,
+      "words": 986
+    },
+    {
+      "id": "q069",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.1977000394836068,
+      "words": 846
+    },
+    {
+      "id": "q070",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.6547000268474221,
+      "words": 906
+    },
+    {
+      "id": "q071",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1,
+      "ndcg10": 0.2890648263178879,
+      "ms": 0.9163999930024147,
+      "words": 829
+    },
+    {
+      "id": "q072",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 1.1752999853342772,
+      "words": 1036
+    },
+    {
+      "id": "q073",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.3906999956816435,
+      "words": 1010
+    },
+    {
+      "id": "q074",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1,
+      "ndcg10": 0.2890648263178879,
+      "ms": 1.126800023484975,
+      "words": 906
+    },
+    {
+      "id": "q075",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.9327000007033348,
+      "words": 949
+    },
+    {
+      "id": "q076",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.305700046941638,
+      "words": 858
+    },
+    {
+      "id": "q077",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 1.097500033210963,
+      "words": 891
+    },
+    {
+      "id": "q078",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1.0276000248268247,
+      "words": 953
+    },
+    {
+      "id": "q079",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 1.0878000175580382,
+      "words": 936
+    },
+    {
+      "id": "q080",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 0.7600000244565308,
+      "words": 855
+    },
+    {
+      "id": "q081",
+      "category": "multi_doc",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.1281000333838165,
+      "words": 958
+    },
+    {
+      "id": "q082",
+      "category": "multi_doc",
+      "recall5": 0.0,
+      "recall10": 0.5,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.21840743681816419,
+      "ms": 1.1372999870218337,
+      "words": 929
+    },
+    {
+      "id": "q083",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8315546295836225,
+      "ms": 1.4889999874867499,
+      "words": 914
+    },
+    {
+      "id": "q084",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 0.25,
+      "ndcg10": 0.2640681225725909,
+      "ms": 1.3139999937266111,
+      "words": 774
+    },
+    {
+      "id": "q085",
+      "category": "multi_doc",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 1.0372999822720885,
+      "words": 837
+    },
+    {
+      "id": "q086",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.3065735963827292,
+      "ms": 1.1168000055477023,
+      "words": 912
+    },
+    {
+      "id": "q087",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 0.25,
+      "ndcg10": 0.2640681225725909,
+      "ms": 2.1794000058434904,
+      "words": 860
+    },
+    {
+      "id": "q088",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.448643819352159,
+      "ms": 1.433999976143241,
+      "words": 913
+    },
+    {
+      "id": "q089",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 1.1697000009007752,
+      "words": 876
+    },
+    {
+      "id": "q090",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5109559939712153,
+      "ms": 1.7871999880298972,
+      "words": 704
+    }
+  ],
+  "hybrid (100w)": [
+    {
+      "id": "q001",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 16.451200004667044,
+      "words": 806
+    },
+    {
+      "id": "q002",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 14.932600024621934,
+      "words": 993
+    },
+    {
+      "id": "q003",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 12.906900024972856,
+      "words": 960
+    },
+    {
+      "id": "q004",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.39489997876808,
+      "words": 826
+    },
+    {
+      "id": "q005",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 13.637600000947714,
+      "words": 948
+    },
+    {
+      "id": "q006",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 13.209500000812113,
+      "words": 916
+    },
+    {
+      "id": "q007",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 11.684799974318594,
+      "words": 870
+    },
+    {
+      "id": "q008",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 73.20799998706207,
+      "words": 934
+    },
+    {
+      "id": "q009",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 18.60429998487234,
+      "words": 926
+    },
+    {
+      "id": "q010",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 20.466200017835945,
+      "words": 970
+    },
+    {
+      "id": "q011",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 17.219999979715794,
+      "words": 910
+    },
+    {
+      "id": "q012",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 17.254999955184758,
+      "words": 911
+    },
+    {
+      "id": "q013",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 11.419999995268881,
+      "words": 852
+    },
+    {
+      "id": "q014",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 12.761599966324866,
+      "words": 918
+    },
+    {
+      "id": "q015",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 10.871500009670854,
+      "words": 753
+    },
+    {
+      "id": "q016",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.240199964959174,
+      "words": 736
+    },
+    {
+      "id": "q017",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 14.092800032813102,
+      "words": 885
+    },
+    {
+      "id": "q018",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 13.438699999824166,
+      "words": 885
+    },
+    {
+      "id": "q019",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.06159999128431,
+      "words": 850
+    },
+    {
+      "id": "q020",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 12.084099987987429,
+      "words": 888
+    },
+    {
+      "id": "q021",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 11.71220000833273,
+      "words": 891
+    },
+    {
+      "id": "q022",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 16.220999998040497,
+      "words": 985
+    },
+    {
+      "id": "q023",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 12.310099962633103,
+      "words": 985
+    },
+    {
+      "id": "q024",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.631300021894276,
+      "words": 891
+    },
+    {
+      "id": "q025",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 25.7283000391908,
+      "words": 868
+    },
+    {
+      "id": "q026",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 16.531399975065142,
+      "words": 779
+    },
+    {
+      "id": "q027",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.33440003124997,
+      "words": 881
+    },
+    {
+      "id": "q028",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.14285714285714285,
+      "ndcg10": 0.3333333333333333,
+      "ms": 13.939399970695376,
+      "words": 968
+    },
+    {
+      "id": "q029",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 16.268400009721518,
+      "words": 818
+    },
+    {
+      "id": "q030",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 14.226600003894418,
+      "words": 888
+    },
+    {
+      "id": "q031",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.570499966386706,
+      "words": 859
+    },
+    {
+      "id": "q032",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 11.852400028146803,
+      "words": 877
+    },
+    {
+      "id": "q033",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 11.419099988415837,
+      "words": 837
+    },
+    {
+      "id": "q034",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 12.03949999762699,
+      "words": 940
+    },
+    {
+      "id": "q035",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 11.23950001783669,
+      "words": 952
+    },
+    {
+      "id": "q036",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 12.985899986233562,
+      "words": 901
+    },
+    {
+      "id": "q037",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.275600012391806,
+      "words": 908
+    },
+    {
+      "id": "q038",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 15.568199974950403,
+      "words": 941
+    },
+    {
+      "id": "q039",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.458199984394014,
+      "words": 886
+    },
+    {
+      "id": "q040",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.067299997899681,
+      "words": 937
+    },
+    {
+      "id": "q041",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.997599980328232,
+      "words": 894
+    },
+    {
+      "id": "q042",
+      "category": "keyword",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 14.232499990612268,
+      "words": 807
+    },
+    {
+      "id": "q043",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 15.515699982643127,
+      "words": 791
+    },
+    {
+      "id": "q044",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 13.76260002143681,
+      "words": 934
+    },
+    {
+      "id": "q045",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.74769997689873,
+      "words": 902
+    },
+    {
+      "id": "q046",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 29.201299999840558,
+      "words": 962
+    },
+    {
+      "id": "q047",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 12.476300005801022,
+      "words": 909
+    },
+    {
+      "id": "q048",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 25.924499961547554,
+      "words": 758
+    },
+    {
+      "id": "q049",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 13.995599991176277,
+      "words": 935
+    },
+    {
+      "id": "q050",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.02920003561303,
+      "words": 874
+    },
+    {
+      "id": "q051",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 11.493900034110993,
+      "words": 775
+    },
+    {
+      "id": "q052",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 9.91189997876063,
+      "words": 780
+    },
+    {
+      "id": "q053",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.851200019009411,
+      "words": 742
+    },
+    {
+      "id": "q054",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 12.475499999709427,
+      "words": 986
+    },
+    {
+      "id": "q055",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 42.30019997339696,
+      "words": 841
+    },
+    {
+      "id": "q056",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 13.679500028956681,
+      "words": 875
+    },
+    {
+      "id": "q057",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "ms": 13.20260000647977,
+      "words": 899
+    },
+    {
+      "id": "q058",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 14.441999956034124,
+      "words": 915
+    },
+    {
+      "id": "q059",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 12.084199988748878,
+      "words": 856
+    },
+    {
+      "id": "q060",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 13.619800040032715,
+      "words": 935
+    },
+    {
+      "id": "q061",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.178200006019324,
+      "words": 939
+    },
+    {
+      "id": "q062",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 11.744999967049807,
+      "words": 946
+    },
+    {
+      "id": "q063",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 11.60249998793006,
+      "words": 911
+    },
+    {
+      "id": "q064",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.941300006583333,
+      "words": 990
+    },
+    {
+      "id": "q065",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 14.446299988776445,
+      "words": 739
+    },
+    {
+      "id": "q066",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 11.75639999564737,
+      "words": 836
+    },
+    {
+      "id": "q067",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 11.084400000981987,
+      "words": 868
+    },
+    {
+      "id": "q068",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 11.715700034983456,
+      "words": 949
+    },
+    {
+      "id": "q069",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 16.182699997443706,
+      "words": 858
+    },
+    {
+      "id": "q070",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "ms": 11.453500017523766,
+      "words": 898
+    },
+    {
+      "id": "q071",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 11.46599999628961,
+      "words": 805
+    },
+    {
+      "id": "q072",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.373299988918006,
+      "words": 796
+    },
+    {
+      "id": "q073",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 10.647100047208369,
+      "words": 975
+    },
+    {
+      "id": "q074",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 10.200200020335615,
+      "words": 874
+    },
+    {
+      "id": "q075",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 10.150999994948506,
+      "words": 874
+    },
+    {
+      "id": "q076",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 12.491500005126,
+      "words": 890
+    },
+    {
+      "id": "q077",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.286700027994812,
+      "words": 844
+    },
+    {
+      "id": "q078",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 11.521900014486164,
+      "words": 1055
+    },
+    {
+      "id": "q079",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 13.440399954561144,
+      "words": 755
+    },
+    {
+      "id": "q080",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 12.351899989880621,
+      "words": 760
+    },
+    {
+      "id": "q081",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5249810332008933,
+      "ms": 13.652599998749793,
+      "words": 1055
+    },
+    {
+      "id": "q082",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.3065735963827292,
+      "ms": 11.983899981714785,
+      "words": 923
+    },
+    {
+      "id": "q083",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "ms": 13.043400016613305,
+      "words": 904
+    },
+    {
+      "id": "q084",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.7977228895450266,
+      "ms": 12.720600003376603,
+      "words": 808
+    },
+    {
+      "id": "q085",
+      "category": "multi_doc",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 14.61600000038743,
+      "words": 825
+    },
+    {
+      "id": "q086",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 15.038500016089529,
+      "words": 909
+    },
+    {
+      "id": "q087",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8315546295836225,
+      "ms": 16.185400018002838,
+      "words": 850
+    },
+    {
+      "id": "q088",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5437713091520254,
+      "ms": 16.842000011820346,
+      "words": 917
+    },
+    {
+      "id": "q089",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 19.824600021820515,
+      "words": 933
+    },
+    {
+      "id": "q090",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6509209298071326,
+      "ms": 13.546899950597435,
+      "words": 739
+    }
+  ],
+  "dense + reranker (100w)": [
+    {
+      "id": "q001",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 570.1072000083514,
+      "words": 791
+    },
+    {
+      "id": "q002",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 471.89659997820854,
+      "words": 798
+    },
+    {
+      "id": "q003",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 521.503500000108,
+      "words": 959
+    },
+    {
+      "id": "q004",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 950.3846000297926,
+      "words": 992
+    },
+    {
+      "id": "q005",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 946.2919000070542,
+      "words": 898
+    },
+    {
+      "id": "q006",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 530.1203000126407,
+      "words": 963
+    },
+    {
+      "id": "q007",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 634.1278000036255,
+      "words": 854
+    },
+    {
+      "id": "q008",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 997.0989999710582,
+      "words": 845
+    },
+    {
+      "id": "q009",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1074.1466999752447,
+      "words": 849
+    },
+    {
+      "id": "q010",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 421.0278000100516,
+      "words": 860
+    },
+    {
+      "id": "q011",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 502.90469999890774,
+      "words": 943
+    },
+    {
+      "id": "q012",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 604.6751000103541,
+      "words": 918
+    },
+    {
+      "id": "q013",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 867.0251999865286,
+      "words": 836
+    },
+    {
+      "id": "q014",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 1056.2049000291154,
+      "words": 958
+    },
+    {
+      "id": "q015",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 742.7629000158049,
+      "words": 759
+    },
+    {
+      "id": "q016",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 973.8293999689631,
+      "words": 1030
+    },
+    {
+      "id": "q017",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 484.580599993933,
+      "words": 872
+    },
+    {
+      "id": "q018",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 917.6189999561757,
+      "words": 991
+    },
+    {
+      "id": "q019",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 924.9575000139885,
+      "words": 779
+    },
+    {
+      "id": "q020",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 501.84029998490587,
+      "words": 879
+    },
+    {
+      "id": "q021",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 560.3609000099823,
+      "words": 894
+    },
+    {
+      "id": "q022",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 983.085099956952,
+      "words": 985
+    },
+    {
+      "id": "q023",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 956.8200000212528,
+      "words": 985
+    },
+    {
+      "id": "q024",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 929.4933999772184,
+      "words": 797
+    },
+    {
+      "id": "q025",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 624.9605999910273,
+      "words": 824
+    },
+    {
+      "id": "q026",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 642.3263999749906,
+      "words": 843
+    },
+    {
+      "id": "q027",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 1238.8542999979109,
+      "words": 917
+    },
+    {
+      "id": "q028",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 896.5911999694072,
+      "words": 951
+    },
+    {
+      "id": "q029",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 684.2861999757588,
+      "words": 747
+    },
+    {
+      "id": "q030",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 435.54149998817593,
+      "words": 885
+    },
+    {
+      "id": "q031",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 531.5795000060461,
+      "words": 827
+    },
+    {
+      "id": "q032",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 527.1903000539169,
+      "words": 806
+    },
+    {
+      "id": "q033",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 456.84980001533404,
+      "words": 817
+    },
+    {
+      "id": "q034",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 696.6421999968588,
+      "words": 959
+    },
+    {
+      "id": "q035",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 411.03839996503666,
+      "words": 942
+    },
+    {
+      "id": "q036",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 674.4990000152029,
+      "words": 920
+    },
+    {
+      "id": "q037",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 890.9960999735631,
+      "words": 900
+    },
+    {
+      "id": "q038",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 532.4566999915987,
+      "words": 898
+    },
+    {
+      "id": "q039",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 508.06140003260225,
+      "words": 875
+    },
+    {
+      "id": "q040",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 571.6800999944098,
+      "words": 840
+    },
+    {
+      "id": "q041",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 461.1642000381835,
+      "words": 931
+    },
+    {
+      "id": "q042",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 599.9529000255279,
+      "words": 841
+    },
+    {
+      "id": "q043",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 898.6992000136524,
+      "words": 789
+    },
+    {
+      "id": "q044",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 635.0302000064403,
+      "words": 934
+    },
+    {
+      "id": "q045",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 393.3561000158079,
+      "words": 916
+    },
+    {
+      "id": "q046",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 543.5222000232898,
+      "words": 946
+    },
+    {
+      "id": "q047",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 404.22720002243295,
+      "words": 927
+    },
+    {
+      "id": "q048",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 422.1657000016421,
+      "words": 771
+    },
+    {
+      "id": "q049",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 949.2346000042744,
+      "words": 1013
+    },
+    {
+      "id": "q050",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 467.27710001869127,
+      "words": 927
+    },
+    {
+      "id": "q051",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 453.666300047189,
+      "words": 696
+    },
+    {
+      "id": "q052",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 610.7514000032097,
+      "words": 827
+    },
+    {
+      "id": "q053",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 482.3459999752231,
+      "words": 747
+    },
+    {
+      "id": "q054",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 518.3459999971092,
+      "words": 872
+    },
+    {
+      "id": "q055",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 460.5189000139944,
+      "words": 832
+    },
+    {
+      "id": "q056",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 516.099399945233,
+      "words": 859
+    },
+    {
+      "id": "q057",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1015.8302999916486,
+      "words": 870
+    },
+    {
+      "id": "q058",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 715.5935000046156,
+      "words": 903
+    },
+    {
+      "id": "q059",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 609.4556999742053,
+      "words": 904
+    },
+    {
+      "id": "q060",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 478.93260000273585,
+      "words": 960
+    },
+    {
+      "id": "q061",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 501.9177999929525,
+      "words": 952
+    },
+    {
+      "id": "q062",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 469.6401000255719,
+      "words": 930
+    },
+    {
+      "id": "q063",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 502.5173000176437,
+      "words": 853
+    },
+    {
+      "id": "q064",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 978.5638999892399,
+      "words": 990
+    },
+    {
+      "id": "q065",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 587.071499961894,
+      "words": 732
+    },
+    {
+      "id": "q066",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 527.975199976936,
+      "words": 762
+    },
+    {
+      "id": "q067",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.125,
+      "ndcg10": 0.31546487678572877,
+      "ms": 423.4559000469744,
+      "words": 938
+    },
+    {
+      "id": "q068",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 1073.1894999626093,
+      "words": 1030
+    },
+    {
+      "id": "q069",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 545.9108999930322,
+      "words": 797
+    },
+    {
+      "id": "q070",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 505.39850001223385,
+      "words": 836
+    },
+    {
+      "id": "q071",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 446.7987999669276,
+      "words": 843
+    },
+    {
+      "id": "q072",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 550.1870000152849,
+      "words": 818
+    },
+    {
+      "id": "q073",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 666.2629999918863,
+      "words": 958
+    },
+    {
+      "id": "q074",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 491.42929998924956,
+      "words": 794
+    },
+    {
+      "id": "q075",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 501.79800001205876,
+      "words": 739
+    },
+    {
+      "id": "q076",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 484.15110004134476,
+      "words": 946
+    },
+    {
+      "id": "q077",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 567.0184000045992,
+      "words": 956
+    },
+    {
+      "id": "q078",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1015.6145000364631,
+      "words": 1088
+    },
+    {
+      "id": "q079",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 727.4406999931671,
+      "words": 727
+    },
+    {
+      "id": "q080",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 709.9503999925219,
+      "words": 840
+    },
+    {
+      "id": "q081",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1073.33689997904,
+      "words": 1066
+    },
+    {
+      "id": "q082",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 490.02420000033453,
+      "words": 879
+    },
+    {
+      "id": "q083",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "ms": 683.9384000049904,
+      "words": 901
+    },
+    {
+      "id": "q084",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 470.69420001935214,
+      "words": 815
+    },
+    {
+      "id": "q085",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.5012658353418871,
+      "ms": 871.6110999812372,
+      "words": 802
+    },
+    {
+      "id": "q086",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 1077.1530999918468,
+      "words": 818
+    },
+    {
+      "id": "q087",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "ms": 592.2736000502482,
+      "words": 795
+    },
+    {
+      "id": "q088",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 440.8623999916017,
+      "words": 888
+    },
+    {
+      "id": "q089",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.7903864795495061,
+      "ms": 581.1796999769285,
+      "words": 967
+    },
+    {
+      "id": "q090",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6240505200038379,
+      "ms": 531.1935000354424,
+      "words": 757
+    }
+  ],
+  "hybrid + reranker (100w)": [
+    {
+      "id": "q001",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 574.8038000310771,
+      "words": 797
+    },
+    {
+      "id": "q002",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 492.0964000048116,
+      "words": 883
+    },
+    {
+      "id": "q003",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 518.1515000294894,
+      "words": 888
+    },
+    {
+      "id": "q004",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 851.564199954737,
+      "words": 998
+    },
+    {
+      "id": "q005",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 990.5528999515809,
+      "words": 950
+    },
+    {
+      "id": "q006",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 541.3418000098318,
+      "words": 967
+    },
+    {
+      "id": "q007",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 611.1264999490231,
+      "words": 854
+    },
+    {
+      "id": "q008",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 498.30169999040663,
+      "words": 896
+    },
+    {
+      "id": "q009",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 910.6785000185482,
+      "words": 839
+    },
+    {
+      "id": "q010",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1,
+      "ndcg10": 0.2890648263178879,
+      "ms": 423.0408000294119,
+      "words": 959
+    },
+    {
+      "id": "q011",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 499.8494000174105,
+      "words": 940
+    },
+    {
+      "id": "q012",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 574.5054000290111,
+      "words": 903
+    },
+    {
+      "id": "q013",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 1278.6313999677077,
+      "words": 837
+    },
+    {
+      "id": "q014",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 1189.791199984029,
+      "words": 971
+    },
+    {
+      "id": "q015",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 939.5056999637745,
+      "words": 749
+    },
+    {
+      "id": "q016",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 846.4417000068352,
+      "words": 949
+    },
+    {
+      "id": "q017",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 514.3823999678716,
+      "words": 874
+    },
+    {
+      "id": "q018",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1014.7598999901675,
+      "words": 1014
+    },
+    {
+      "id": "q019",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 922.523099987302,
+      "words": 896
+    },
+    {
+      "id": "q020",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.14285714285714285,
+      "ndcg10": 0.3333333333333333,
+      "ms": 422.15980001492426,
+      "words": 866
+    },
+    {
+      "id": "q021",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 486.1747000250034,
+      "words": 884
+    },
+    {
+      "id": "q022",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 864.8527999757789,
+      "words": 985
+    },
+    {
+      "id": "q023",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 983.6474999901839,
+      "words": 985
+    },
+    {
+      "id": "q024",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 567.3444999847561,
+      "words": 889
+    },
+    {
+      "id": "q025",
+      "category": "simple",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 885.2431999985129,
+      "words": 849
+    },
+    {
+      "id": "q026",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 479.1393000050448,
+      "words": 846
+    },
+    {
+      "id": "q027",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 562.5371999922208,
+      "words": 892
+    },
+    {
+      "id": "q028",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 654.8518000054173,
+      "words": 952
+    },
+    {
+      "id": "q029",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 606.5113000222482,
+      "words": 775
+    },
+    {
+      "id": "q030",
+      "category": "simple",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 590.0312999729067,
+      "words": 926
+    },
+    {
+      "id": "q031",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 605.3705000085756,
+      "words": 813
+    },
+    {
+      "id": "q032",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 587.8296999726444,
+      "words": 857
+    },
+    {
+      "id": "q033",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 805.1705000107177,
+      "words": 858
+    },
+    {
+      "id": "q034",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 755.5969000095502,
+      "words": 993
+    },
+    {
+      "id": "q035",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 564.4964000093751,
+      "words": 973
+    },
+    {
+      "id": "q036",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 557.9044999903999,
+      "words": 902
+    },
+    {
+      "id": "q037",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1065.4368000105023,
+      "words": 908
+    },
+    {
+      "id": "q038",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.25,
+      "ndcg10": 0.43067655807339306,
+      "ms": 708.168699988164,
+      "words": 965
+    },
+    {
+      "id": "q039",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 621.0970000247471,
+      "words": 889
+    },
+    {
+      "id": "q040",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 680.6842000223696,
+      "words": 874
+    },
+    {
+      "id": "q041",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 514.1312000341713,
+      "words": 967
+    },
+    {
+      "id": "q042",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 727.8638000134379,
+      "words": 853
+    },
+    {
+      "id": "q043",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 993.7420999631286,
+      "words": 827
+    },
+    {
+      "id": "q044",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 716.6827999753878,
+      "words": 934
+    },
+    {
+      "id": "q045",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 516.5964000043459,
+      "words": 908
+    },
+    {
+      "id": "q046",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 544.7114999988116,
+      "words": 956
+    },
+    {
+      "id": "q047",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 453.3612999948673,
+      "words": 918
+    },
+    {
+      "id": "q048",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 650.9723999770358,
+      "words": 765
+    },
+    {
+      "id": "q049",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 982.4384999810718,
+      "words": 746
+    },
+    {
+      "id": "q050",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 540.6688000075519,
+      "words": 911
+    },
+    {
+      "id": "q051",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 557.0854999823496,
+      "words": 786
+    },
+    {
+      "id": "q052",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 576.5994000248611,
+      "words": 870
+    },
+    {
+      "id": "q053",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 575.8761999895796,
+      "words": 744
+    },
+    {
+      "id": "q054",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 649.6849000104703,
+      "words": 797
+    },
+    {
+      "id": "q055",
+      "category": "keyword",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 656.6097000031732,
+      "words": 843
+    },
+    {
+      "id": "q056",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 684.46869996842,
+      "words": 836
+    },
+    {
+      "id": "q057",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 535.1844999822788,
+      "words": 934
+    },
+    {
+      "id": "q058",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 820.1738999923691,
+      "words": 911
+    },
+    {
+      "id": "q059",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1111111111111111,
+      "ndcg10": 0.3010299956639812,
+      "ms": 610.3919000015594,
+      "words": 892
+    },
+    {
+      "id": "q060",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 479.747400037013,
+      "words": 903
+    },
+    {
+      "id": "q061",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 544.2304000025615,
+      "words": 953
+    },
+    {
+      "id": "q062",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.38685280723454163,
+      "ms": 603.5387999727391,
+      "words": 896
+    },
+    {
+      "id": "q063",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 565.5739999492653,
+      "words": 895
+    },
+    {
+      "id": "q064",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 1154.453499999363,
+      "words": 1003
+    },
+    {
+      "id": "q065",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.125,
+      "ndcg10": 0.31546487678572877,
+      "ms": 473.7368999631144,
+      "words": 797
+    },
+    {
+      "id": "q066",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.16666666666666666,
+      "ndcg10": 0.3562071871080222,
+      "ms": 483.3004999672994,
+      "words": 836
+    },
+    {
+      "id": "q067",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 994.5863999892026,
+      "words": 899
+    },
+    {
+      "id": "q068",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 543.6744000180624,
+      "words": 816
+    },
+    {
+      "id": "q069",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 584.0431000106037,
+      "words": 915
+    },
+    {
+      "id": "q070",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 529.6530000050552,
+      "words": 886
+    },
+    {
+      "id": "q071",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.3333333333333333,
+      "ndcg10": 0.5,
+      "ms": 558.1269999966025,
+      "words": 909
+    },
+    {
+      "id": "q072",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 697.421699995175,
+      "words": 813
+    },
+    {
+      "id": "q073",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 0.0,
+      "mrr": 0.0,
+      "ndcg10": 0.0,
+      "ms": 717.4024000414647,
+      "words": 1008
+    },
+    {
+      "id": "q074",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 438.38400003733113,
+      "words": 794
+    },
+    {
+      "id": "q075",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 422.01649997150525,
+      "words": 884
+    },
+    {
+      "id": "q076",
+      "category": "vague",
+      "recall5": 0.0,
+      "recall10": 1.0,
+      "mrr": 0.1,
+      "ndcg10": 0.2890648263178879,
+      "ms": 555.0559000112116,
+      "words": 962
+    },
+    {
+      "id": "q077",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 562.3966999701224,
+      "words": 935
+    },
+    {
+      "id": "q078",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 1024.1155000403523,
+      "words": 1093
+    },
+    {
+      "id": "q079",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6309297535714575,
+      "ms": 515.9910999936983,
+      "words": 760
+    },
+    {
+      "id": "q080",
+      "category": "vague",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 486.8620000197552,
+      "words": 833
+    },
+    {
+      "id": "q081",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 966.8726999661885,
+      "words": 1123
+    },
+    {
+      "id": "q082",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 452.4177000275813,
+      "words": 911
+    },
+    {
+      "id": "q083",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8772153153380493,
+      "ms": 597.0465000136755,
+      "words": 898
+    },
+    {
+      "id": "q084",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.8772153153380493,
+      "ms": 459.2185000074096,
+      "words": 856
+    },
+    {
+      "id": "q085",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 1.0,
+      "mrr": 0.2,
+      "ndcg10": 0.45560514958746035,
+      "ms": 809.5108999987133,
+      "words": 835
+    },
+    {
+      "id": "q086",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 545.2131000347435,
+      "words": 860
+    },
+    {
+      "id": "q087",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 0.9197207891481876,
+      "ms": 838.33500003675,
+      "words": 883
+    },
+    {
+      "id": "q088",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 1.0,
+      "ndcg10": 1.0,
+      "ms": 424.8871000017971,
+      "words": 925
+    },
+    {
+      "id": "q089",
+      "category": "multi_doc",
+      "recall5": 0.5,
+      "recall10": 0.5,
+      "mrr": 1.0,
+      "ndcg10": 0.6131471927654584,
+      "ms": 527.2377000073902,
+      "words": 963
+    },
+    {
+      "id": "q090",
+      "category": "multi_doc",
+      "recall5": 1.0,
+      "recall10": 1.0,
+      "mrr": 0.5,
+      "ndcg10": 0.6240505200038379,
+      "ms": 562.263100000564,
+      "words": 757
+    }
+  ]
+}

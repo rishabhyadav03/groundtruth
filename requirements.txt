@@ -1,0 +1,1 @@
+pip list --format=freeze | Select-String -Pattern "sentence-transformers|rank-bm25|numpy|pytest"

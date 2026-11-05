@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "q001",
+    "category": "simple",
+    "question": "What are background tasks used for in FastAPI?",
+    "evidence": [
+      {
+        "file": "background-tasks.md",
+        "text": "You can define background tasks to be run *after* returning a response."
+      }
+    ],
+    "reference_answer": "To run code after the response has already been sent to the client."
+  },
+  {
+    "id": "q002",
+    "category": "simple",
+    "question": "What is a request body?",
+    "evidence": [
+      {
+        "file": "body.md",
+        "text": "A **request** body is data sent by the client to your API."
+      }
+    ],
+    "reference_answer": "Data that the client sends to your API."
+  },
+  {
+    "id": "q003",
+    "category": "simple",
+    "question": "Which HTTP methods should I use if I want to send data to my API?",
+    "evidence": [
+      {
+        "file": "body.md",
+        "text": "To send data, you should use one of: `POST` (the most common), `PUT`, `DELETE` or `PATCH`."
+      }
+    ],
+    "reference_answer": "POST (most common), PUT, DELETE or PATCH."
+  },
+  {
+    "id": "q004",
+    "category": "simple",
+    "question": "What is an origin in CORS?",
+    "evidence": [
+      {
+        "file": "cors.md",
+        "text": "An origin is the combination of protocol (`http`, `https`), domain (`myapp.com`, `localhost`, `localhost.tiangolo.com`), and port (`80`, `443`, `8080`)."
+      }
+    ],
+    "reference_answer": "The combination of protocol, domain and port."
+  },
+  {
+    "id": "q005",
+    "category": "simple",
+    "question": "How can I run my app directly from the code so I can use a debugger?",
+    "evidence": [
+      {
+        "file": "debugging.md",
+        "text": "In your FastAPI application, import and run `uvicorn` directly:"
+      }
+    ],
+    "reference_answer": "Import uvicorn in your file and call it directly."
+  },
+  {
+    "id": "q006",
+    "category": "simple",
+    "question": "Why would I need to convert a Pydantic model to something JSON compatible?",
+    "evidence": [
+      {
+        "file": "encoder.md",
+        "text": "There are some cases where you might need to convert a data type (like a Pydantic model) to something compatible with JSON (like a `dict`, `list`, etc)."
+      }
+    ],
+    "reference_answer": "For example to store it in a database that only accepts JSON compatible data."
+  },
+  {
+    "id": "q007",
+    "category": "simple",
+    "question": "Why should the output model of a user not have a password?",
+    "evidence": [
+      {
+        "file": "extra-models.md",
+        "text": "The **output model** should not have a password."
+      }
+    ],
+    "reference_answer": "So the password is never sent back to the client."
+  },
+  {
+    "id": "q008",
+    "category": "simple",
+    "question": "What is OpenAPI?",
+    "evidence": [
+      {
+        "file": "first-steps.md",
+        "text": "**FastAPI** generates a \"schema\" with all your API using the **OpenAPI** standard for defining APIs."
+      }
+    ],
+    "reference_answer": "A standard for describing APIs, which FastAPI uses to generate a schema."
+  },
+  {
+    "id": "q009",
+    "category": "simple",
+    "question": "Which URL shows the other automatic documentation made by ReDoc?",
+    "evidence": [
+      {
+        "file": "first-steps.md",
+        "text": "And now, go to [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)."
+      }
+    ],
+    "reference_answer": "http://127.0.0.1:8000/redoc"
+  },
+  {
+    "id": "q010",
+    "category": "simple",
+    "question": "How do I send an error back to the client in FastAPI?",
+    "evidence": [
+      {
+        "file": "handling-errors.md",
+        "text": "To return HTTP responses with errors to the client you use `HTTPException`."
+      }
+    ],
+    "reference_answer": "Use HTTPException."
+  },
+  {
+    "id": "q011",
+    "category": "simple",
+    "question": "Do I return an HTTPException or raise it?",
+    "evidence": [
+      {
+        "file": "handling-errors.md",
+        "text": "Because it's a Python exception, you don't `return` it, you `raise` it."
+      }
+    ],
+    "reference_answer": "You raise it."
+  },
+  {
+    "id": "q012",
+    "category": "simple",
+    "question": "What happens to underscores in header names like user_agent?",
+    "evidence": [
+      {
+        "file": "header-params.md",
+        "text": "So, by default, `Header` will convert the parameter names characters from underscore (`_`) to hyphen (`-`) to extract and document the headers."
+      }
+    ],
+    "reference_answer": "They are converted to hyphens automatically."
+  },
+  {
+    "id": "q013",
+    "category": "simple",
+    "question": "How do I run the examples from the tutorial?",
+    "evidence": [
+      {
+        "file": "index.md",
+        "text": "To run any of the examples, copy the code to a file `main.py`, and start `fastapi dev` with `uv run`:"
+      }
+    ],
+    "reference_answer": "Copy the code to main.py and start it with fastapi dev."
+  },
+  {
+    "id": "q014",
+    "category": "simple",
+    "question": "How do I add a description for each tag in my docs?",
+    "evidence": [
+      {
+        "file": "metadata.md",
+        "text": "You can also add additional metadata for the different tags used to group your path operations with the parameter `openapi_tags`."
+      }
+    ],
+    "reference_answer": "Use the openapi_tags parameter."
+  },
+  {
+    "id": "q015",
+    "category": "simple",
+    "question": "What is a middleware?",
+    "evidence": [
+      {
+        "file": "middleware.md",
+        "text": "A \"middleware\" is a function that works with every **request** before it is processed by any specific *path operation*."
+      }
+    ],
+    "reference_answer": "A function that works on every request before it reaches a path operation, and on every response before it is returned."
+  },
+  {
+    "id": "q016",
+    "category": "simple",
+    "question": "How can I mark an endpoint as deprecated?",
+    "evidence": [
+      {
+        "file": "path-operation-configuration.md",
+        "text": "but without removing it, pass the parameter `deprecated`:"
+      }
+    ],
+    "reference_answer": "Pass deprecated=True to the path operation decorator."
+  },
+  {
+    "id": "q017",
+    "category": "simple",
+    "question": "What error do I get when I open /items/foo and item_id should be an integer?",
+    "evidence": [
+      {
+        "file": "path-params.md",
+        "text": "because the path parameter `item_id` had a value of `\"foo\"`, which is not an `int`."
+      }
+    ],
+    "reference_answer": "A validation error saying foo is not an int."
+  },
+  {
+    "id": "q018",
+    "category": "simple",
+    "question": "Which library does the data validation behind the scenes?",
+    "evidence": [
+      {
+        "file": "path-params.md",
+        "text": "All the data validation is performed under the hood by [Pydantic](https://pydantic.dev/docs/), so you get all the benefits from it."
+      }
+    ],
+    "reference_answer": "Pydantic."
+  },
+  {
+    "id": "q019",
+    "category": "simple",
+    "question": "What is the query part of a URL?",
+    "evidence": [
+      {
+        "file": "query-params.md",
+        "text": "The query is the set of key-value pairs that go after the `?` in a URL, separated by `&` characters."
+      }
+    ],
+    "reference_answer": "The key-value pairs after the ? in the URL, separated by &."
+  },
+  {
+    "id": "q020",
+    "category": "simple",
+    "question": "How do I make a query parameter optional?",
+    "evidence": [
+      {
+        "file": "query-params.md",
+        "text": "The same way, you can declare optional query parameters, by setting their default to `None`:"
+      }
+    ],
+    "reference_answer": "Set its default value to None."
+  },
+  {
+    "id": "q021",
+    "category": "simple",
+    "question": "Why would I need form fields instead of JSON?",
+    "evidence": [
+      {
+        "file": "request-forms.md",
+        "text": "it is required to send a `username` and `password` as form fields."
+      }
+    ],
+    "reference_answer": "For example the OAuth2 password flow needs username and password as form fields."
+  },
+  {
+    "id": "q022",
+    "category": "simple",
+    "question": "What does the status code 201 mean?",
+    "evidence": [
+      {
+        "file": "response-status-code.md",
+        "text": "Another example would be `201`, \"Created\"."
+      }
+    ],
+    "reference_answer": "Created, often used after creating a new record."
+  },
+  {
+    "id": "q023",
+    "category": "simple",
+    "question": "What status code is used by default?",
+    "evidence": [
+      {
+        "file": "response-status-code.md",
+        "text": "`200` is the default status code, which means everything was \"OK\"."
+      }
+    ],
+    "reference_answer": "200."
+  },
+  {
+    "id": "q024",
+    "category": "simple",
+    "question": "How can I serve static files like images from a folder?",
+    "evidence": [
+      {
+        "file": "static-files.md",
+        "text": "You can serve static files automatically from a directory using `StaticFiles`."
+      }
+    ],
+    "reference_answer": "Use StaticFiles."
+  },
+  {
+    "id": "q025",
+    "category": "simple",
+    "question": "What does the test client depend on?",
+    "evidence": [
+      {
+        "file": "testing.md",
+        "text": "It is based on [HTTPX](https://www.python-httpx.org), which in turn is designed based on Requests, so it's very familiar and intuitive."
+      }
+    ],
+    "reference_answer": "HTTPX."
+  },
+  {
+    "id": "q026",
+    "category": "simple",
+    "question": "Do I have to use a SQL database with FastAPI?",
+    "evidence": [
+      {
+        "file": "sql-databases.md",
+        "text": "**FastAPI** doesn't require you to use a SQL (relational) database. But you can use **any database** that you want."
+      }
+    ],
+    "reference_answer": "No, you can use any database."
+  },
+  {
+    "id": "q027",
+    "category": "simple",
+    "question": "What is JSON Lines?",
+    "evidence": [
+      {
+        "file": "stream-json-lines.md",
+        "text": "which is a format where you send one JSON object per line."
+      }
+    ],
+    "reference_answer": "A format with one JSON object per line."
+  },
+  {
+    "id": "q028",
+    "category": "simple",
+    "question": "What is the difference between PUT and PATCH when updating?",
+    "evidence": [
+      {
+        "file": "body-updates.md",
+        "text": "`PUT` is used to receive data that should replace the existing data."
+      }
+    ],
+    "reference_answer": "PUT replaces the existing data, PATCH only updates the parts you send."
+  },
+  {
+    "id": "q029",
+    "category": "simple",
+    "question": "How do I make FastAPI expect the item inside a key even if there is only one body parameter?",
+    "evidence": [
+      {
+        "file": "body-multiple-params.md",
+        "text": "you can use the special `Body` parameter `embed`:"
+      }
+    ],
+    "reference_answer": "Use Body(embed=True)."
+  },
+  {
+    "id": "q030",
+    "category": "simple",
+    "question": "How do I serve a built frontend, like a React app, with FastAPI?",
+    "evidence": [
+      {
+        "file": "frontend.md",
+        "text": "You can serve static frontend apps with `app.frontend()` (or `router.frontend()`)."
+      }
+    ],
+    "reference_answer": "Use app.frontend()."
+  },
+  {
+    "id": "q031",
+    "category": "keyword",
+    "question": "What arguments does add_task() receive in BackgroundTasks?",
+    "evidence": [
+      {
+        "file": "background-tasks.md",
+        "text": "`.add_task()` receives as arguments:"
+      }
+    ],
+    "reference_answer": "A task function, then positional arguments and keyword arguments for it."
+  },
+  {
+    "id": "q032",
+    "category": "keyword",
+    "question": "What is the difference between BackgroundTasks and BackgroundTask?",
+    "evidence": [
+      {
+        "file": "background-tasks.md",
+        "text": "It is imported/included directly into FastAPI so that you can import it from `fastapi` and avoid accidentally importing the alternative `BackgroundTask` (without the `s` at the end) from `starlette.background`."
+      }
+    ],
+    "reference_answer": "BackgroundTasks can be used as a parameter and FastAPI handles it; BackgroundTask comes from Starlette."
+  },
+  {
+    "id": "q033",
+    "category": "keyword",
+    "question": "When should I use Celery instead of BackgroundTasks?",
+    "evidence": [
+      {
+        "file": "background-tasks.md",
+        "text": "If you need to perform heavy background computation and you don't necessarily need it to be run by the same process"
+      }
+    ],
+    "reference_answer": "For heavy background work that does not need to run in the same process."
+  },
+  {
+    "id": "q034",
+    "category": "keyword",
+    "question": "What does include_router() do?",
+    "evidence": [
+      {
+        "file": "bigger-applications.md",
+        "text": "With `app.include_router()` we can add each `APIRouter` to the main `FastAPI` application."
+      }
+    ],
+    "reference_answer": "It adds the routes of a router to the main app."
+  },
+  {
+    "id": "q035",
+    "category": "keyword",
+    "question": "What is an APIRouter?",
+    "evidence": [
+      {
+        "file": "bigger-applications.md",
+        "text": "You can think of `APIRouter` as a \"mini `FastAPI`\" class."
+      }
+    ],
+    "reference_answer": "A mini FastAPI class used to organize path operations."
+  },
+  {
+    "id": "q036",
+    "category": "keyword",
+    "question": "What does the double dot in 'from ..dependencies import get_token_header' mean?",
+    "evidence": [
+      {
+        "file": "bigger-applications.md",
+        "text": "The two dots `..`, like in:"
+      }
+    ],
+    "reference_answer": "Go to the parent package and import from there."
+  },
+  {
+    "id": "q037",
+    "category": "keyword",
+    "question": "Where do I import Field from?",
+    "evidence": [
+      {
+        "file": "body-fields.md",
+        "text": "Notice that `Field` is imported directly from `pydantic`, not from `fastapi` as are all the rest (`Query`, `Path`, `Body`, etc)."
+      }
+    ],
+    "reference_answer": "From pydantic, not fastapi."
+  },
+  {
+    "id": "q038",
+    "category": "keyword",
+    "question": "What is json_schema_extra used for?",
+    "evidence": [
+      {
+        "file": "body-fields.md",
+        "text": "You can declare extra information with `json_schema_extra` in `Field`, `Query`, `Body`, etc. And it will be included in the generated JSON Schema."
+      }
+    ],
+    "reference_answer": "To add extra information to the generated JSON Schema."
+  },
+  {
+    "id": "q039",
+    "category": "keyword",
+    "question": "How does exclude_unset help with partial updates?",
+    "evidence": [
+      {
+        "file": "body-updates.md",
+        "text": "That would generate a `dict` with only the data that was set when creating the `item` model, excluding default values."
+      }
+    ],
+    "reference_answer": "It gives a dict with only the values the user actually sent."
+  },
+  {
+    "id": "q040",
+    "category": "keyword",
+    "question": "What does model_copy(update=...) do?",
+    "evidence": [
+      {
+        "file": "body-updates.md",
+        "text": "Now, you can create a copy of the existing model using `.model_copy()`, and pass the `update` parameter with a `dict` containing the data to update."
+      }
+    ],
+    "reference_answer": "Makes a copy of the stored model with the new values applied."
+  },
+  {
+    "id": "q041",
+    "category": "keyword",
+    "question": "What is jsonable_encoder() for?",
+    "evidence": [
+      {
+        "file": "encoder.md",
+        "text": "For that, **FastAPI** provides a `jsonable_encoder()` function."
+      }
+    ],
+    "reference_answer": "It converts data like Pydantic models and datetimes into JSON compatible data."
+  },
+  {
+    "id": "q042",
+    "category": "keyword",
+    "question": "What is the default value of allow_methods in CORSMiddleware?",
+    "evidence": [
+      {
+        "file": "cors.md",
+        "text": "`allow_methods` - A list of HTTP methods that should be allowed for cross-origin requests. Defaults to `['GET']`."
+      }
+    ],
+    "reference_answer": "['GET']"
+  },
+  {
+    "id": "q043",
+    "category": "keyword",
+    "question": "What is the default max_age in CORSMiddleware?",
+    "evidence": [
+      {
+        "file": "cors.md",
+        "text": "`max_age` - Sets a maximum time in seconds for browsers to cache CORS responses. Defaults to `600`."
+      }
+    ],
+    "reference_answer": "600 seconds."
+  },
+  {
+    "id": "q044",
+    "category": "keyword",
+    "question": "How do I turn off convert_underscores for a Header?",
+    "evidence": [
+      {
+        "file": "header-params.md",
+        "text": "If for some reason you need to disable automatic conversion of underscores to hyphens, set the parameter `convert_underscores` of `Header` to `False`:"
+      }
+    ],
+    "reference_answer": "Set convert_underscores=False."
+  },
+  {
+    "id": "q045",
+    "category": "keyword",
+    "question": "What happens if a client sends extra cookies when the model forbids extras?",
+    "evidence": [
+      {
+        "file": "cookie-param-models.md",
+        "text": "If a client tries to send some **extra cookies**, they will receive an **error** response."
+      }
+    ],
+    "reference_answer": "They get an error response."
+  },
+  {
+    "id": "q046",
+    "category": "keyword",
+    "question": "What kinds of values can I pass as the detail of an HTTPException?",
+    "evidence": [
+      {
+        "file": "handling-errors.md",
+        "text": "When raising an `HTTPException`, you can pass any value that can be converted to JSON as the parameter `detail`, not only `str`."
+      }
+    ],
+    "reference_answer": "Any value that can be converted to JSON."
+  },
+  {
+    "id": "q047",
+    "category": "keyword",
+    "question": "How do I add a custom handler with @app.exception_handler()?",
+    "evidence": [
+      {
+        "file": "handling-errors.md",
+        "text": "You could add a custom exception handler with `@app.exception_handler()`:"
+      }
+    ],
+    "reference_answer": "Decorate a function with @app.exception_handler(YourException)."
+  },
+  {
+    "id": "q048",
+    "category": "keyword",
+    "question": "What does call_next do in a middleware?",
+    "evidence": [
+      {
+        "file": "middleware.md",
+        "text": "A function `call_next` that will receive the `request` as a parameter."
+      }
+    ],
+    "reference_answer": "It passes the request to the path operation and returns the response."
+  },
+  {
+    "id": "q049",
+    "category": "keyword",
+    "question": "Why does the middleware example use time.perf_counter() and not time.time()?",
+    "evidence": [
+      {
+        "file": "middleware.md",
+        "text": "Here we use [`time.perf_counter()`](https://docs.python.org/3/library/time.html#time.perf_counter) instead of `time.time()` because it can be more precise for these use cases."
+      }
+    ],
+    "reference_answer": "Because it can be more precise."
+  },
+  {
+    "id": "q050",
+    "category": "keyword",
+    "question": "What does ge=1 do on a path parameter?",
+    "evidence": [
+      {
+        "file": "path-params-numeric-validations.md",
+        "text": "Here, with `ge=1`, `item_id` will need to be an integer number"
+      }
+    ],
+    "reference_answer": "The value must be greater than or equal to 1."
+  },
+  {
+    "id": "q051",
+    "category": "keyword",
+    "question": "When do I use response_model instead of the return type?",
+    "evidence": [
+      {
+        "file": "response-model.md",
+        "text": "In those cases, you can use the *path operation decorator* parameter `response_model` instead of the return type."
+      }
+    ],
+    "reference_answer": "When the function returns something different from what you want to declare, like a dict."
+  },
+  {
+    "id": "q052",
+    "category": "keyword",
+    "question": "How is UploadFile stored in memory?",
+    "evidence": [
+      {
+        "file": "request-files.md",
+        "text": "A file stored in memory up to a maximum size limit, and after passing this limit it will be stored on disk."
+      }
+    ],
+    "reference_answer": "In memory up to a size limit, then on disk."
+  },
+  {
+    "id": "q053",
+    "category": "keyword",
+    "question": "Which package do I install to receive uploaded files?",
+    "evidence": [
+      {
+        "file": "request-files.md",
+        "text": "To receive uploaded files, first install [`python-multipart`](https://github.com/Kludex/python-multipart)."
+      }
+    ],
+    "reference_answer": "python-multipart."
+  },
+  {
+    "id": "q054",
+    "category": "keyword",
+    "question": "Which response_class do I set to stream server-sent events?",
+    "evidence": [
+      {
+        "file": "server-sent-events.md",
+        "text": "To stream SSE with FastAPI, use `yield` in your *path operation function* and set `response_class=EventSourceResponse`."
+      }
+    ],
+    "reference_answer": "EventSourceResponse."
+  },
+  {
+    "id": "q055",
+    "category": "keyword",
+    "question": "What does table=True mean in a SQLModel class?",
+    "evidence": [
+      {
+        "file": "sql-databases.md",
+        "text": "`table=True` tells SQLModel that this is a *table model*, it should represent a **table** in the SQL database"
+      }
+    ],
+    "reference_answer": "The class represents a table in the database."
+  },
+  {
+    "id": "q056",
+    "category": "vague",
+    "question": "My app needs to send an email after signup but I don't want the user to wait. What can I do?",
+    "evidence": [
+      {
+        "file": "background-tasks.md",
+        "text": "As connecting to an email server and sending an email tends to be \"slow\" (several seconds), you can return the response right away and send the email notification in the background."
+      }
+    ],
+    "reference_answer": "Return the response right away and send the email in a background task."
+  },
+  {
+    "id": "q057",
+    "category": "vague",
+    "question": "How can I split my big project into many files?",
+    "evidence": [
+      {
+        "file": "bigger-applications.md",
+        "text": "**FastAPI** provides a convenience tool to structure your application while keeping all the flexibility."
+      }
+    ],
+    "reference_answer": "Use APIRouter to split the app into several modules."
+  },
+  {
+    "id": "q058",
+    "category": "vague",
+    "question": "My website in the browser cannot talk to my API running on another port. Why?",
+    "evidence": [
+      {
+        "file": "cors.md",
+        "text": "refers to the situations when a frontend running in a browser has JavaScript code that communicates with a backend, and the backend is in a different \"origin\" than the frontend."
+      }
+    ],
+    "reference_answer": "Because the frontend and backend are different origins, so CORS rules apply."
+  },
+  {
+    "id": "q059",
+    "category": "vague",
+    "question": "How can I stop clients from sending unexpected extra values in the URL?",
+    "evidence": [
+      {
+        "file": "query-param-models.md",
+        "text": "In some special use cases (probably not very common), you might want to **restrict** the query parameters that you want to receive."
+      }
+    ],
+    "reference_answer": "Use a Pydantic model with extra set to forbid."
+  },
+  {
+    "id": "q060",
+    "category": "vague",
+    "question": "Can I accept numbers as the keys of a dictionary in the JSON body?",
+    "evidence": [
+      {
+        "file": "body-nested-models.md",
+        "text": "In this case, you would accept any `dict` as long as it has `int` keys with `float` values:"
+      }
+    ],
+    "reference_answer": "Yes, declare a dict with int keys and float values."
+  },
+  {
+    "id": "q061",
+    "category": "vague",
+    "question": "How do I stop duplicate items in a list of tags?",
+    "evidence": [
+      {
+        "file": "body-nested-models.md",
+        "text": "With this, even if you receive a request with duplicate data, it will be converted to a set of unique items."
+      }
+    ],
+    "reference_answer": "Declare the field as a set of strings."
+  },
+  {
+    "id": "q062",
+    "category": "vague",
+    "question": "Why did my update overwrite fields that I did not send?",
+    "evidence": [
+      {
+        "file": "body-updates.md",
+        "text": "And the data would be saved with that \"new\" `tax` of `10.5`."
+      }
+    ],
+    "reference_answer": "Because PUT replaces the data and the missing fields got default values."
+  },
+  {
+    "id": "q063",
+    "category": "vague",
+    "question": "How should I save user passwords?",
+    "evidence": [
+      {
+        "file": "extra-models.md",
+        "text": "Never store user's plaintext passwords. Always store a \"secure hash\" that you can then verify."
+      }
+    ],
+    "reference_answer": "Never store plaintext, store a secure hash."
+  },
+  {
+    "id": "q064",
+    "category": "vague",
+    "question": "Where can I see my API documentation in the browser?",
+    "evidence": [
+      {
+        "file": "first-steps.md",
+        "text": "You will see the automatic interactive API documentation (provided by [Swagger UI](https://github.com/swagger-api/swagger-ui)):"
+      }
+    ],
+    "reference_answer": "At /docs, provided by Swagger UI."
+  },
+  {
+    "id": "q065",
+    "category": "vague",
+    "question": "What happens if my function returns data that does not match what I declared as the output?",
+    "evidence": [
+      {
+        "file": "response-model.md",
+        "text": "it means that *your* app code is broken, not returning what it should, and it will return a server error instead of returning incorrect data."
+      }
+    ],
+    "reference_answer": "A server error is returned instead of wrong data."
+  },
+  {
+    "id": "q066",
+    "category": "vague",
+    "question": "Why is turning the response into JSON faster when I declare the output type?",
+    "evidence": [
+      {
+        "file": "response-model.md",
+        "text": "**Serialize** the returned data to JSON using Pydantic, which is written in **Rust**, so it will be **much faster**."
+      }
+    ],
+    "reference_answer": "Pydantic serializes the data and it is written in Rust."
+  },
+  {
+    "id": "q067",
+    "category": "vague",
+    "question": "How can I write automatic tests for my API?",
+    "evidence": [
+      {
+        "file": "testing.md",
+        "text": "Thanks to [Starlette](https://starlette.dev/testclient/), testing **FastAPI** applications is easy and enjoyable."
+      }
+    ],
+    "reference_answer": "Use the TestClient with pytest."
+  },
+  {
+    "id": "q068",
+    "category": "vague",
+    "question": "Which data type can I use for IDs in a database?",
+    "evidence": [
+      {
+        "file": "extra-data-types.md",
+        "text": "A standard \"Universally Unique Identifier\", common as an ID in many databases and systems."
+      }
+    ],
+    "reference_answer": "UUID."
+  },
+  {
+    "id": "q069",
+    "category": "vague",
+    "question": "Can I upload a very big video without using up all my memory?",
+    "evidence": [
+      {
+        "file": "request-files.md",
+        "text": "This means that it will work well for large files like images, videos, large binaries, etc. without consuming all the memory."
+      }
+    ],
+    "reference_answer": "Yes, use UploadFile."
+  },
+  {
+    "id": "q070",
+    "category": "vague",
+    "question": "A checkbox that is not ticked is not sent by the browser. How do I still get a value?",
+    "evidence": [
+      {
+        "file": "request-forms.md",
+        "text": "Browsers omit unchecked checkboxes when submitting HTML forms."
+      }
+    ],
+    "reference_answer": "Declare a boolean form parameter with default False."
+  },
+  {
+    "id": "q071",
+    "category": "vague",
+    "question": "How can my server push live updates to the browser?",
+    "evidence": [
+      {
+        "file": "server-sent-events.md",
+        "text": "SSE is a standard for streaming data from the server to the client over HTTP."
+      }
+    ],
+    "reference_answer": "With Server-Sent Events."
+  },
+  {
+    "id": "q072",
+    "category": "vague",
+    "question": "Which database does the tutorial use because it is just one file?",
+    "evidence": [
+      {
+        "file": "sql-databases.md",
+        "text": "In this example, we'll use **SQLite**, because it uses a single file and Python has integrated support."
+      }
+    ],
+    "reference_answer": "SQLite."
+  },
+  {
+    "id": "q073",
+    "category": "vague",
+    "question": "What does it mean to attach a separate app to a path of my main app?",
+    "evidence": [
+      {
+        "file": "static-files.md",
+        "text": "\"Mounting\" means adding a complete \"independent\" application in a specific path, that then takes care of handling all the sub-paths."
+      }
+    ],
+    "reference_answer": "Mounting means adding a complete independent app at a path."
+  },
+  {
+    "id": "q074",
+    "category": "vague",
+    "question": "What can I do when the same header comes twice in a request?",
+    "evidence": [
+      {
+        "file": "header-params.md",
+        "text": "You will receive all the values from the duplicate header as a Python `list`."
+      }
+    ],
+    "reference_answer": "Declare it as a list and you get all the values."
+  },
+  {
+    "id": "q075",
+    "category": "vague",
+    "question": "Is it okay to put data inside a GET request?",
+    "evidence": [
+      {
+        "file": "body.md",
+        "text": "Sending a body with a `GET` request has an undefined behavior in the specifications, nevertheless, it is supported by FastAPI, only for very complex/extreme use cases."
+      }
+    ],
+    "reference_answer": "It is supported but discouraged."
+  },
+  {
+    "id": "q076",
+    "category": "vague",
+    "question": "What help does my code editor give me when I use models for the data?",
+    "evidence": [
+      {
+        "file": "body.md",
+        "text": "In your editor, inside your function you will get type hints and completion everywhere"
+      }
+    ],
+    "reference_answer": "Type hints and completion everywhere."
+  },
+  {
+    "id": "q077",
+    "category": "vague",
+    "question": "How can I show example data for my models in the docs?",
+    "evidence": [
+      {
+        "file": "schema-extra-example.md",
+        "text": "You can declare `examples` for a Pydantic model that will be added to the generated JSON Schema."
+      }
+    ],
+    "reference_answer": "Use examples inside json_schema_extra in the model config."
+  },
+  {
+    "id": "q078",
+    "category": "vague",
+    "question": "Can I write a long description for my endpoint with formatting?",
+    "evidence": [
+      {
+        "file": "path-operation-configuration.md",
+        "text": "You can write [Markdown](https://en.wikipedia.org/wiki/Markdown) in the docstring, it will be interpreted and displayed correctly (taking into account docstring indentation)."
+      }
+    ],
+    "reference_answer": "Yes, write Markdown in the function docstring."
+  },
+  {
+    "id": "q079",
+    "category": "vague",
+    "question": "When does the cleanup code of a dependency run compared with middleware?",
+    "evidence": [
+      {
+        "file": "middleware.md",
+        "text": "If you have dependencies with `yield`, the exit code will run *after* the middleware."
+      }
+    ],
+    "reference_answer": "After the middleware."
+  },
+  {
+    "id": "q080",
+    "category": "vague",
+    "question": "What extra packages come with the standard installation?",
+    "evidence": [
+      {
+        "file": "index.md",
+        "text": "it comes with some default optional standard dependencies, including `fastapi-cloud-cli`"
+      }
+    ],
+    "reference_answer": "Some optional standard dependencies including fastapi-cloud-cli."
+  },
+  {
+    "id": "q081",
+    "category": "multi_doc",
+    "question": "How are sets handled when data comes in and when it goes out?",
+    "evidence": [
+      {
+        "file": "body-nested-models.md",
+        "text": "With this, even if you receive a request with duplicate data, it will be converted to a set of unique items."
+      },
+      {
+        "file": "extra-data-types.md",
+        "text": "In responses, the `set` will be converted to a `list`."
+      }
+    ],
+    "reference_answer": "Incoming duplicates are removed, and in responses the set becomes a list."
+  },
+  {
+    "id": "q082",
+    "category": "multi_doc",
+    "question": "Why do I need Header and Cookie, and not just a normal parameter?",
+    "evidence": [
+      {
+        "file": "header-params.md",
+        "text": "To declare headers, you need to use `Header`, because otherwise the parameters would be interpreted as query parameters."
+      },
+      {
+        "file": "cookie-params.md",
+        "text": "To declare cookies, you need to use `Cookie`, because otherwise the parameters would be interpreted as query parameters."
+      }
+    ],
+    "reference_answer": "Otherwise FastAPI treats them as query parameters."
+  },
+  {
+    "id": "q083",
+    "category": "multi_doc",
+    "question": "Why can't I mix a JSON body with form or file fields in the same endpoint?",
+    "evidence": [
+      {
+        "file": "request-forms.md",
+        "text": "You can declare multiple `Form` parameters in a *path operation*, but you can't also declare `Body`"
+      },
+      {
+        "file": "request-forms-and-files.md",
+        "text": "The files and form fields will be uploaded as form data and you will receive the files and form fields."
+      }
+    ],
+    "reference_answer": "Files and form fields are sent as form data, so the request body cannot also be JSON."
+  },
+  {
+    "id": "q084",
+    "category": "multi_doc",
+    "question": "How can I let browser JavaScript read a custom response header I add in a middleware?",
+    "evidence": [
+      {
+        "file": "middleware.md",
+        "text": "But if you have custom headers that you want a client in a browser to be able to see, you need to add them to your CORS configurations"
+      },
+      {
+        "file": "cors.md",
+        "text": "`expose_headers` - Indicate any response headers that should be made accessible to the browser. Defaults to `[]`."
+      }
+    ],
+    "reference_answer": "Add the header names to expose_headers in the CORS configuration."
+  },
+  {
+    "id": "q085",
+    "category": "multi_doc",
+    "question": "Where do the test client and the static files tools come from?",
+    "evidence": [
+      {
+        "file": "testing.md",
+        "text": "**FastAPI** provides the same `starlette.testclient` as `fastapi.testclient` just as a convenience for you, the developer."
+      },
+      {
+        "file": "static-files.md",
+        "text": "**FastAPI** provides the same `starlette.staticfiles` as `fastapi.staticfiles` just as a convenience for you, the developer."
+      }
+    ],
+    "reference_answer": "Both come from Starlette and FastAPI re-exports them for convenience."
+  },
+  {
+    "id": "q086",
+    "category": "multi_doc",
+    "question": "How do I organize my files so the tests can import the app?",
+    "evidence": [
+      {
+        "file": "bigger-applications.md",
+        "text": "This is what allows importing code from one file into another."
+      },
+      {
+        "file": "testing.md",
+        "text": "Because this file is in the same package, you can use relative imports to import the object `app` from the `main` module (`main.py`):"
+      }
+    ],
+    "reference_answer": "Use __init__.py files to make packages, then use relative imports in the test file."
+  },
+  {
+    "id": "q087",
+    "category": "multi_doc",
+    "question": "What return type do I declare when streaming JSON items from an async function, and what if I leave the return type out for server-sent events?",
+    "evidence": [
+      {
+        "file": "stream-json-lines.md",
+        "text": "If each JSON item you want to send back is of type `Item` (a Pydantic model) and it's an async function, you can declare the return type as `AsyncIterable[Item]`:"
+      },
+      {
+        "file": "server-sent-events.md",
+        "text": "You can also omit the return type. FastAPI will use the [`jsonable_encoder`](./encoder.md) to convert the data and send it."
+      }
+    ],
+    "reference_answer": "Declare AsyncIterable[Item]; if you omit it, FastAPI uses jsonable_encoder to convert and send the data."
+  },
+  {
+    "id": "q088",
+    "category": "multi_doc",
+    "question": "What happens when a client sends extra values to a model for query parameters and for headers?",
+    "evidence": [
+      {
+        "file": "query-param-models.md",
+        "text": "If a client tries to send some **extra** data in the **query parameters**, they will receive an **error** response."
+      },
+      {
+        "file": "header-param-models.md",
+        "text": "If a client tries to send some **extra headers**, they will receive an **error** response."
+      }
+    ],
+    "reference_answer": "In both cases the client gets an error response when extra is forbidden."
+  },
+  {
+    "id": "q089",
+    "category": "multi_doc",
+    "question": "How do tags end up in the docs and how is their order decided?",
+    "evidence": [
+      {
+        "file": "path-operation-configuration.md",
+        "text": "They will be added to the OpenAPI schema and used by the automatic documentation interfaces:"
+      },
+      {
+        "file": "metadata.md",
+        "text": "The order of each tag metadata dictionary also defines the order shown in the docs UI."
+      }
+    ],
+    "reference_answer": "Tags are added to the OpenAPI schema and shown in the docs, in the order of the tag metadata list."
+  },
+  {
+    "id": "q090",
+    "category": "multi_doc",
+    "question": "What do I need to install, and which classes do I use, to get files and form data in the same request?",
+    "evidence": [
+      {
+        "file": "request-files.md",
+        "text": "To receive uploaded files, first install [`python-multipart`](https://github.com/Kludex/python-multipart)."
+      },
+      {
+        "file": "request-forms-and-files.md",
+        "text": "You can define files and form fields at the same time using `File` and `Form`."
+      }
+    ],
+    "reference_answer": "Install python-multipart and use File and Form together."
+  },
+  {
+    "id": "q091",
+    "category": "unanswerable",
+    "question": "How do I deploy FastAPI to Kubernetes?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  },
+  {
+    "id": "q092",
+    "category": "unanswerable",
+    "question": "How do I use WebSockets in FastAPI?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  },
+  {
+    "id": "q093",
+    "category": "unanswerable",
+    "question": "How do I add rate limiting to my API?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  },
+  {
+    "id": "q094",
+    "category": "unanswerable",
+    "question": "How do I connect FastAPI to MongoDB?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  },
+  {
+    "id": "q095",
+    "category": "unanswerable",
+    "question": "How do I add JWT login tokens to my API?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  },
+  {
+    "id": "q096",
+    "category": "unanswerable",
+    "question": "How do I send emails using SMTP?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  },
+  {
+    "id": "q097",
+    "category": "unanswerable",
+    "question": "How do I set up Prometheus monitoring for my app?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  },
+  {
+    "id": "q098",
+    "category": "unanswerable",
+    "question": "How do I get a TLS certificate for HTTPS?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  },
+  {
+    "id": "q099",
+    "category": "unanswerable",
+    "question": "How do I write a Dockerfile for my app?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  },
+  {
+    "id": "q100",
+    "category": "unanswerable",
+    "question": "How much does FastAPI Cloud cost per month?",
+    "evidence": [],
+    "reference_answer": "Not covered in the tutorial docs."
+  }
+]
