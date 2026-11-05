@@ -2,12 +2,13 @@
 
 | Config | recall@5 | recall@10 | MRR | nDCG@10 | ms/query | words in top 10 |
 |---|---|---|---|---|---|---|
-| baseline (100w, dense) | 0.78 | 0.87 | 0.51 | 0.60 | 12 | 869 |
-| bigger chunks (300w, dense) | 0.77 | 0.84 | 0.67 | 0.70 | 12 | 2450 |
-| keyword only (100w, bm25) | 0.61 | 0.72 | 0.48 | 0.53 | 1 | 882 |
-| hybrid (100w) | 0.77 | 0.84 | 0.56 | 0.61 | 15 | 884 |
-| dense + reranker (100w) | 0.89 | 0.93 | 0.71 | 0.76 | 657 | 879 |
-| hybrid + reranker (100w) | 0.84 | 0.93 | 0.69 | 0.74 | 663 | 892 |
+| baseline (100w, dense) | 0.78 | 0.87 | 0.51 | 0.60 | 33 | 869 |
+| bigger chunks (300w, dense) | 0.77 | 0.84 | 0.67 | 0.70 | 55 | 2450 |
+| keyword only (100w, bm25) | 0.61 | 0.72 | 0.48 | 0.53 | 2 | 882 |
+| hybrid (100w) | 0.77 | 0.84 | 0.56 | 0.61 | 73 | 884 |
+| dense + reranker (100w) | 0.89 | 0.93 | 0.71 | 0.76 | 773 | 879 |
+| hybrid + reranker (100w) | 0.84 | 0.93 | 0.69 | 0.74 | 869 | 892 |
+| dense + reranker L4 (100w) | 0.86 | 0.93 | 0.71 | 0.76 | 599 | 891 |
 
 ### recall@10 by question category
 
@@ -19,3 +20,4 @@
 | hybrid (100w) | 0.87 | 0.96 | 0.72 | 0.75 |
 | dense + reranker (100w) | 0.93 | 1.00 | 0.84 | 0.95 |
 | hybrid + reranker (100w) | 0.93 | 1.00 | 0.88 | 0.90 |
+| dense + reranker L4 (100w) | 0.93 | 1.00 | 0.84 | 1.00 |

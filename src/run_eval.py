@@ -2,7 +2,7 @@ import json
 import os
 import time
 
-from src.retriever import Retriever
+from src.retriever import Retriever,RERANK_MODEL
 from src.metrics import recall_at_k, mrr, ndcg_at_k
 
 # Each config changes ONE thing compared to the baseline (first row)
@@ -13,6 +13,8 @@ CONFIGS = [
     {"name": "hybrid (100w)",               "chunk_size": 100, "mode": "hybrid", "rerank": False},
     {"name": "dense + reranker (100w)",     "chunk_size": 100, "mode": "dense",  "rerank": True},
     {"name": "hybrid + reranker (100w)",    "chunk_size": 100, "mode": "hybrid", "rerank": True},
+    {"name": "dense + reranker L4 (100w)", "chunk_size": 100, "mode": "dense", "rerank": True,
+    "rerank_model": "cross-encoder/ms-marco-MiniLM-L4-v2"},
 ]
 
 CATEGORIES = ["simple", "keyword", "vague", "multi_doc"]
@@ -24,6 +26,7 @@ def evaluate_config(config, golden):
         mode=config["mode"],
         use_reranker=config["rerank"],
         rerank_candidates=config.get("pool", 20),
+        rerank_model=config.get("rerank_model", RERANK_MODEL),
     )
     rows = []
     for item in golden:

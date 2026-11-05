@@ -14,7 +14,8 @@ def tokenize(text):
 
 
 class Retriever:
-    def __init__(self, chunk_size=100, mode="dense", use_reranker=False,rerank_candidates=20,
+    def __init__(self, chunk_size=100, mode="dense", use_reranker=False,
+                 rerank_candidates=20, rerank_model=RERANK_MODEL,
                  docs_folder="data/docs"):
         self.mode = mode
         self.use_reranker = use_reranker
@@ -33,7 +34,7 @@ class Retriever:
 
         # reranker: reads (question, chunk) together and scores them
         if use_reranker:
-            self.reranker = CrossEncoder(RERANK_MODEL)
+            self.reranker = CrossEncoder(rerank_model)
 
     def dense_ranking(self, query):
         query_vector = self.embedder.encode(query, normalize_embeddings=True)

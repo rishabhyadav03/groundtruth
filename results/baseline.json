@@ -1,4 +1,4 @@
 {
-  "config": "dense + reranker (100w, pool 20)",
-  "recall10": 0.9278
+  "config": "production (dense + reranker L4, 100w, pool 20)",
+  "recall10": 0.9333
 }
