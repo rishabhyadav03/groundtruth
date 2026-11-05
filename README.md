@@ -2,42 +2,65 @@
 
 A small tool that checks whether a change to a retrieval system (the search part of RAG) really makes it better, using numbers instead of trying a few questions by hand.
 
-I tested it on the FastAPI tutorial docs. The best setup I found was dense search plus a reranker. It raised recall@10 from 0.87 to 0.93 and MRR from 0.51 to 0.71, but each query takes about 650 ms on my CPU instead of 12 ms.
+I tested it on the FastAPI tutorial docs. The best setup I found was dense search plus a reranker. It raised recall@10 from 0.87 to 0.93 and MRR from 0.51 to 0.71, but a query takes about 600 ms on my laptop CPU instead of 33 ms.
+
+
 
 ## What is in the repo
 
 - 40 FastAPI doc files used as the corpus
-- 100 questions with the sentence that answers each one
+- 100 questions, each with the sentence that answers it
 - recall@k, MRR and nDCG, written by hand and unit tested
-- 6 retriever setups compared on the same questions
+- 7 retriever setups compared on the same questions
+- confidence ranges, so I know which differences I can trust
 - a GitHub Action that fails a pull request if recall@10 drops by more than 1 point
 
 ## Results
 
 Scored on the 90 questions that have an answer in the docs. Each setup changes one thing from the baseline.
 
-| Setup | recall@10 | MRR | nDCG@10 | ms per query |
-|---|---|---|---|---|
-| baseline (100-word chunks, dense) | 0.87 | 0.51 | 0.60 | 12 |
-| bigger chunks (300 words, dense) | 0.84 | 0.67 | 0.70 | 12 |
-| keyword only (BM25) | 0.72 | 0.48 | 0.53 | 1 |
-| hybrid (dense + BM25) | 0.84 | 0.56 | 0.61 | 15 |
-| dense + reranker | 0.93 | 0.71 | 0.76 | 657 |
-| hybrid + reranker | 0.93 | 0.69 | 0.74 | 663 |
+| Setup | recall@5 | recall@10 | MRR | nDCG@10 | ms per query |
+|---|---|---|---|---|---|
+| baseline (100-word chunks, dense) | 0.78 | 0.87 | 0.51 | 0.60 | 33 |
+| bigger chunks (300 words, dense) | 0.77 | 0.84 | 0.67 | 0.70 | 55 |
+| keyword only (BM25) | 0.61 | 0.72 | 0.48 | 0.53 | 2 |
+| hybrid (dense + BM25) | 0.77 | 0.84 | 0.56 | 0.61 | 73 |
+| dense + reranker (MiniLM L6) | 0.89 | 0.93 | 0.71 | 0.76 | 773 |
+| hybrid + reranker (MiniLM L6) | 0.84 | 0.93 | 0.69 | 0.74 | 869 |
+| dense + reranker (MiniLM L4) | 0.86 | 0.93 | 0.71 | 0.76 | 599 |
 
-Compared with the baseline, question by question, dense + reranker got 7 questions better, 1 worse and 82 the same.
+Times come from one run on my laptop CPU. They change by 15 to 25 percent from run to run, so only compare numbers from the same table.
 
-I only have 90 scored questions, so one question is about 1 point. A gap of 2 or 3 points is not proof of anything.
+Compared with the baseline, question by question, dense + reranker (L6) got 7 questions better, 1 worse and 82 the same.
+
+## How sure am I?
+
+I only have 90 scored questions, so I resampled them 1,000 times to get 95% ranges. This shows the change compared with the baseline.
+
+| Setup | recall@10 change | MRR change |
+|---|---|---|
+| bigger chunks | -0.02 (-0.10 to +0.06), not clear | +0.16 (+0.07 to +0.25), better |
+| keyword only | -0.15 (-0.24 to -0.06), worse | -0.04 (-0.14 to +0.07), not clear |
+| hybrid | -0.03 (-0.08 to +0.03), not clear | +0.04 (-0.03 to +0.11), not clear |
+| dense + reranker (L6) | +0.06 (+0.02 to +0.11), better | +0.20 (+0.13 to +0.27), better |
+| hybrid + reranker (L6) | +0.07 (+0.01 to +0.13), better | +0.18 (+0.10 to +0.26), better |
+| dense + reranker (L4) | +0.07 (+0.02 to +0.12), better | +0.20 (+0.13 to +0.28), better |
+
+"Not clear" means 90 questions cannot tell the setup apart from the baseline. These ranges are only a rough guide, because the questions were not picked at random, so the real uncertainty is a bit bigger. The reranker gain is real, but it could be as small as 2 points.
 
 ## What I would use
 
-Dense search (all-MiniLM-L6-v2) on 100-word chunks, then a cross-encoder reranker on the top 20. It is slow, but it was the only change that clearly helped. For something that needs instant answers I would skip the reranker.
+Dense search (all-MiniLM-L6-v2) on 100-word chunks, then a small cross-encoder reranker (MiniLM L4) on the top 20.
+
+L4 gave the same recall@10, MRR and nDCG as the bigger L6 reranker. Its recall@5 is 3 points lower (0.86 vs 0.89) and it is about 20 to 30 percent faster. I chose it after seeing these results, so treat the choice as exploratory. In an earlier run an even smaller model (L2) was about 2.7 times faster than L6, but recall@10 fell to 0.89 and MRR to 0.68.
+
+It is still much slower than plain dense search. If answers have to be instant, I would skip the reranker.
 
 ## What did not work
 
-- Hybrid search did not beat plain dense search (recall@10 0.84 vs 0.87). It helped 3 questions and hurt 6.
-- 300-word chunks ranked results better (MRR 0.67 vs 0.51) but recall did not improve, and it sends almost 3 times more text.
-- I tried letting the reranker look at 50 and 100 chunks instead of 20. recall@10 stayed about the same (0.92 and 0.94) and queries got 2 to 4 times slower. I tried this after looking at the failures, so take it with care.
+- Hybrid search did not beat plain dense search. recall@10 was 0.84 vs 0.87, and the ranges say I cannot tell them apart. It helped 3 questions and hurt 6.
+- 300-word chunks ranked results better (MRR 0.67 vs 0.51) but recall@10 did not improve, and it sends almost 3 times more text.
+- Letting the L6 reranker look at 50 or 100 chunks instead of 20 gave recall@10 of 0.92 and 0.94 (vs 0.93), and queries got 2 to 4 times slower. I tried this after looking at the failures, so take it with care.
 
 ## How the questions were made
 
@@ -51,7 +74,7 @@ The 10 unanswerable questions are not used in the scores yet.
 
 ## The CI check
 
-A test runs the best setup on every pull request. It fails if recall@10 is more than 0.01 below the saved baseline (0.9278).
+A test runs the shipped setup (dense + L4 reranker) on every pull request. It fails if recall@10 is more than 0.01 below the saved baseline (0.9333).
 
 To test it I opened a pull request that switched to keyword-only search. recall@10 fell to 0.717 and the check blocked it.
 
@@ -61,7 +84,7 @@ To test it I opened a pull request that switched to keyword-only search. recall@
 
 ## Where it still fails
 
-7 questions are still missed. For all of them the right file was in the top 3, but the right chunk was not. These are my guesses from reading the results:
+7 questions were still missed by the L6 setup. For all of them the right file was in the top 3, but the right chunk was not. These are my guesses from reading the results:
 
 - q003 (which HTTP methods send data): got a nearby chunk of the right file, and a chunk about HTTP methods from another file ranked first.
 - q059 (stop extra values in the URL): the header, query and form model docs say almost the same thing, so they get mixed up.
@@ -85,11 +108,14 @@ python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
 
-python src/check_golden.py      # check the questions against the docs
-python -m pytest tests -v       # tests and the regression check
-python -m src.run_eval          # run all 6 setups, saves to results/
-python -m src.analyze           # compare with the baseline question by question
-python -m src.error_analysis    # look at the failed questions
+python src/check_golden.py        # check the questions against the docs
+python -m pytest tests -v         # tests and the regression check
+python -m src.run_eval            # run all 7 setups, saves to results/
+python -m src.confidence          # 95% ranges for the differences
+python -m src.analyze             # compare with the baseline question by question
+python -m src.error_analysis      # look at the failed questions
+python -m src.pool_experiment     # reranker pool size experiment
+python -m src.speed_experiment    # reranker size experiment
 ```
 
 ## Folders
