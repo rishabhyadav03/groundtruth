@@ -4,8 +4,6 @@ A small tool that checks whether a change to a retrieval system (the search part
 
 I tested it on the FastAPI tutorial docs. The best setup I found was dense search plus a reranker. It raised recall@10 from 0.87 to 0.93 and MRR from 0.51 to 0.71, but a query takes about 600 ms on my laptop CPU instead of 33 ms. I also checked the final answers with a Groq model: 94% were correct, and most of the wrong ones came from retrieval.
 
-Demo video (90 seconds): [ADD LINK]
-
 ## What is in the repo
 
 - 40 FastAPI doc files used as the corpus
@@ -69,7 +67,7 @@ There are 100 questions: 30 simple, 25 with exact keywords, 25 vaguely worded, 1
 
 For every answerable question I saved the exact sentence from the docs that answers it. A retrieved chunk counts as correct if it comes from the right file and contains that sentence. This way the same questions work for any chunk size. A script checks that every sentence really exists in the docs.
 
-[EDIT: say how you made the questions. For example: I used an LLM to draft them, then read all 100 and changed N of them.]
+[I used an LLM to draft them, then read all 100 and changed 16 of them.]
 
 The 10 unanswerable questions are not used in the retrieval scores.
 
